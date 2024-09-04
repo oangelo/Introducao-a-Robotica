@@ -65,4 +65,31 @@ Embora a IA seja uma ferramenta poderosa, o uso responsável e crítico dessas t
 3. **Commit e Push**: Faça commits regulares para salvar seu progresso e use `push` para enviar as mudanças para o repositório remoto.
 4. **Pull Requests**: Use pull requests para revisão de código e mesclagem de conteúdo entre branches.
 
+## Sistema de Avaliação
+
+Nosso curso utiliza um sistema de avaliação abrangente e participativo:
+
+1. **Avaliação das Apresentações**: Cada aluno avaliará todas as apresentações (exceto a do seu próprio grupo) usando um formulário padronizado.
+
+3. **Escala de Avaliação**: Utilizamos uma escala de 1 a 5 para cada critério, onde:
+   - 1 = Insatisfatório
+   - 2 = Precisa de melhorias
+   - 3 = Satisfatório
+   - 4 = Bom
+   - 5 = Excelente
+
+4. **Categorias de Avaliação**:
+   - Aspectos Técnicos: focam no conteúdo e na precisão das informações apresentadas.
+   - Aspectos Estéticos: abordam a apresentação visual e a eficácia da comunicação.
+
+5. **Processo de Avaliação**:
+   - Após cada apresentação, os alunos preencherão o formulário de avaliação.
+   - As avaliações serão submetidas como issues no GitHub.
+   - Posteriormente, cada aluno revisará e avaliará as avaliações feitas pelos colegas.
+
+6. **Formulário de Avaliação**: Um modelo do formulário de avaliação está disponível [aqui](https://oangelo.github.io/Introducao-a-Robotica/formulario-avaliacao-robotica.html).
+
+Este sistema visa promover um ambiente de aprendizado colaborativo e reflexivo, onde os alunos não apenas apresentam e avaliam, mas também refletem criticamente sobre o processo de avaliação em si.
+
+
 Bom trabalho e boa sorte!
