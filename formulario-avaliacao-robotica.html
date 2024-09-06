@@ -12,22 +12,22 @@
         body {
             font-family: Arial, sans-serif;
             font-size: 9pt;
-            line-height: 1.3;
-            margin: 15mm;
+            line-height: 1.2;
+            margin: 10mm;
         }
         h1 {
             font-size: 14pt;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         h2 {
             font-size: 11pt;
-            margin-top: 10px;
-            margin-bottom: 5px;
+            margin-top: 5px;
+            margin-bottom: 3px;
         }
         .info {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         .info div {
             flex: 1;
@@ -45,14 +45,23 @@
             background-color: #f0f0f0;
         }
         .rating {
-            width: 100px;
+            width: 60px;
         }
         .comment {
-            width: 60%;
+            width: 70%;
         }
         .intro {
             font-style: italic;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+            font-size: 8pt;
+        }
+        .comment-cell {
+            height: 40px; /* Aumento do espaço para comentários */
+        }
+        .general-comment {
+            height: 30px;
+            border: 1px solid #000;
+            margin-top: 2px;
         }
     </style>
 </head>
@@ -60,51 +69,47 @@
     <h1>Formulário de Avaliação Anônima - Projeto de Robótica</h1>
     
     <p class="intro">
-        <strong>Lembre-se:</strong> Uma avaliação honesta e construtiva é fundamental para o crescimento de seus colegas. 
-        Ao fornecer feedback sincero, você ajuda o apresentador a identificar áreas reais de melhoria e reconhecer 
-        seus verdadeiros pontos fortes. Uma avaliação excessivamente generosa ou "camarada" pode parecer gentil, 
-        mas priva seus colegas de oportunidades valiosas de aprendizado e desenvolvimento. Seja justo, respeitoso 
-        e construtivo em suas avaliações - é assim que todos nós crescemos e melhoramos juntos.
+        <strong>Orientações para uma avaliação eficaz:</strong> 1) Seja honesto e construtivo. 2) Evite comentários genéricos, seja específico. 3) Use uma abordagem gentil e positiva. Ex.: "O assunto X me interessou. Gostaria de ver mais sobre [aspecto específico]" em vez de "Não gostei do assunto X". 4) Ofereça sugestões concretas para melhoria. 5) Destaque pontos fortes específicos.
     </p>
 
     <div class="info">
-        <div>Grupo Avaliado: ____________________</div>
-        <div>Tema: ____________________</div>
+        <div>Grupo Avaliado: ________________</div>
+        <div>Tema: ________________</div>
     </div>
 
-    <p><strong>Instruções:</strong> Avalie cada aspecto de 1 a 5, onde: 1 = Insatisfatório, 2 = Precisa de melhorias, 3 = Satisfatório, 4 = Bom, 5 = Excelente</p>
+    <p><strong>Instruções:</strong> Avalie de 1 a 5 (1 = Insatisfatório, 2 = Precisa melhorias, 3 = Satisfatório, 4 = Bom, 5 = Excelente)</p>
 
     <h2>Aspectos Técnicos</h2>
     <table>
         <tr>
             <th>Critério</th>
-            <th class="rating">Avaliação (1-5)</th>
-            <th class="comment">Comentários</th>
+            <th class="rating">Nota (1-5)</th>
+            <th class="comment">Comentários Específicos</th>
         </tr>
         <tr>
             <td>1. Precisão do Conteúdo</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
         <tr>
             <td>2. Profundidade da Pesquisa</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
         <tr>
             <td>3. Compreensão do Tema</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
         <tr>
             <td>4. Relevância das Informações</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
         <tr>
             <td>5. Organização Lógica do Conteúdo</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
     </table>
 
@@ -112,39 +117,42 @@
     <table>
         <tr>
             <th>Critério</th>
-            <th class="rating">Avaliação (1-5)</th>
-            <th class="comment">Comentários</th>
+            <th class="rating">Nota (1-5)</th>
+            <th class="comment">Comentários Específicos</th>
         </tr>
         <tr>
             <td>1. Qualidade Visual dos Slides</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
         <tr>
             <td>2. Clareza da Apresentação</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
         <tr>
             <td>3. Uso Efetivo de Recursos Visuais</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
         <tr>
             <td>4. Engajamento da Audiência</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
         <tr>
             <td>5. Coesão entre os Apresentadores</td>
             <td></td>
-            <td></td>
+            <td class="comment-cell"></td>
         </tr>
     </table>
 
     <h2>Avaliação Geral</h2>
-    <p>Pontos Fortes: ________________________________________________</p>
-    <p>Áreas para Melhoria: ___________________________________________</p>
-    <p>Comentários Adicionais: ________________________________________</p>
+    <p>Pontos Fortes (seja específico):</p>
+    <div class="general-comment"></div>
+    <p>Sugestões de Melhoria (ofereça ideias concretas):</p>
+    <div class="general-comment"></div>
+    <p>Comentários Adicionais (feedback construtivo):</p>
+    <div class="general-comment"></div>
 </body>
 </html>
