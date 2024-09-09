@@ -1,34 +1,50 @@
-# Curso de Introdução à Robótica
+<p align="center">
+  <a href="https://revealjs.com">
+  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
+  </a>
+  <br><br>
+  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
+  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+</p>
 
-Bem-vindo ao repositório do curso de Introdução à Robótica! Este espaço servirá como hub central para todos os materiais, projetos e recursos relacionados ao nosso curso.
+reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at [revealjs.com](https://revealjs.com/).
 
-## Sobre o Curso
+The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX typesetting](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
 
-Este curso oferece uma introdução abrangente ao fascinante mundo da robótica. Através de um projeto colaborativo, os alunos explorarão diversos aspectos da robótica, desde conceitos fundamentais até aplicações avançadas e questões éticas.
+---
 
-## Objetivos de Aprendizagem
+Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.
 
-Ao final deste curso, os alunos serão capazes de:
+---
 
-- Compreender os princípios fundamentais da robótica
-- Pesquisar e sintetizar informações sobre tópicos avançados em robótica
-- Colaborar efetivamente em equipes usando ferramentas como GitHub
-- Desenvolver e apresentar conteúdo técnico usando reveal.js
-- Avaliar criticamente o trabalho de pares usando rubricas desenvolvidas colaborativamente
+### Sponsors
+Hakim's open source work is supported by <a href="https://github.com/sponsors/hakimel">GitHub sponsors</a>. Special thanks to:
+<div align="center">
+  <table>
+    <td align="center">
+      <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
+        <div>
+          <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
+        </div>
+        <b>Your app, enterprise-ready.</b>
+        <div>
+          <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
+        </div>
+      </a>
+    </td>
+  </table>
+</div>
 
-## Estrutura do Projeto
+---
 
-O projeto principal do curso envolve:
+### Getting started
+- 🚀 [Install reveal.js](https://revealjs.com/installation)
+- 👀 [View the demo presentation](https://revealjs.com/demo)
+- 📖 [Read the documentation](https://revealjs.com/markup/)
+- 🖌 [Try the visual editor for reveal.js at Slides.com](https://slides.com/)
+- 🎬 [Watch the reveal.js video course (paid)](https://revealjs.com/course)
 
-1. Formação de grupos de 3 alunos
-2. Escolha de um tema principal em robótica
-3. Divisão do tema em pelo menos 3 subtemas
-4. Pesquisa e desenvolvimento de conteúdo para cada subtema
-5. Criação de uma apresentação em reveal.js
-6. Apresentação final e avaliação por pares
-
-## Como Usar Este Repositório
-
-1. **Fork do Repositório**: Cada grupo deve fazer um fork deste repositório para sua própria conta do GitHub.
-
-4. **Pull Requests**: Use pull requests para revisão de código e mesclagem de conteúdo entre branches.
+--- 
+<div align="center">
+  MIT licensed | Copyright © 2011-2024 Hakim El Hattab, https://hakim.se
+</div>
