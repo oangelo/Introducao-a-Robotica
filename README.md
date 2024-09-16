@@ -43,7 +43,7 @@ São dispositivos automatizados projetados para auxiliar cirurgiões em procedim
 O Da Vinci Surgical System é um dos sistemas robóticos mais avançados e amplamente utilizados na medicina moderna, especialmente em cirurgias minimamente invasivas. Desenvolvido pela Intuitive Surgical, o sistema foi aprovado pela FDA em 2000 e revolucionou a maneira como as cirurgias são realizadas.
 
 Ele é composto por três componentes principais: 
-1. **Consola do cirurgião**: Onde o médico controla os braços robóticos com alta precisão, , filtrando tremores e visualizando a cirurgia em 3D
+1. **Console do cirurgião**: Onde o médico controla os braços robóticos com alta precisão, , filtrando tremores e visualizando a cirurgia em 3D
 2. **O carrinho do paciente**: Contém os braços robóticos que replicam os movimentos do cirurgião com maior precisão
 3. **Torre de visão**: Oferece uma visualização detalhada e  tridimensional do campo cirúrgico. 
 Essa tecnologia permite cirurgias complexas com pequenas incisões, o que resulta em menor trauma e recuperação mais rápida.
