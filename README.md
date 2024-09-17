@@ -11,6 +11,12 @@ O uso de robôs na área da saúde tem suas raízes nas décadas de 1980 e 1990,
 1. **Década de 1980**: O uso de robôs na medicina teve seus primeiros avanços durante a década de 1980, quando a NASA e o Exército dos EUA começaram a pesquisar como os robôs poderiam ser usados em ambientes médicos, principalmente em locais de guerra. Um dos primeiros exemplos notáveis foi o Robô Puma 560, utilizado para realizar biópsias de próstata guiadas por tomografia computadorizada (TC). Embora rudimentar comparado aos sistemas modernos, esse robô demonstrou o potencial de precisão robótica no campo médico.
 
 2. **1990 - Sistema Robótico AESOP**: No início dos anos 1990, a Computer Motion desenvolveu o robô AESOP (Automated Endoscopic System for Optimal Positioning), que se tornou o primeiro robô assistente cirúrgico aprovado pela FDA (Food and Drug Administration) dos Estados Unidos. O AESOP deu início à era da cirurgia assistida por robôs, permitindo que cirurgiões controlassem um braço robótico para posicionar câmeras durante cirurgias, oferecendo maior estabilidade e precisão.
+=======
+- Compreender os princípios fundamentais da robótica
+- Pesquisar e sintetizar informações sobre tópicos avançados em robótica
+- Colaborar efetivamente em equipes usando ferramentas como GitHub
+- Desenvolver e apresentar conteúdo técnico usando [Reveal.js](https://revealjs.com/)
+- Avaliar criticamente o trabalho de pares usando rubricas desenvolvidas colaborativamente
 
 3. **2000 - Da Vinci Surgical System**: O verdadeiro ponto de virada veio com o lançamento do Sistema Cirúrgico Da Vinci, em 2000, desenvolvido pela Intuitive Surgical, que revolucionou a cirurgia robótica, oferecendo precisão, controle e visualização 3D aos cirurgiões, permitindo a realização de cirurgias complexas com menos invasividade. Utilizando braços robóticos e uma interface controlada por cirurgiões, o Da Vinci se tornou um marco na robótica médica, sendo utilizado em uma vasta gama de procedimentos, como cirurgias cardíacas, urológicas e ginecológicas. O Da Vinci foi amplamente aceito em hospitais de todo o mundo e se tornou o padrão para muitas cirurgias robóticas.
 
@@ -212,5 +218,3 @@ A incorporação de robôs na saúde está remodelando o campo médico, trazendo
 Contudo, é fundamental continuar a abordar as questões éticas e regulatórias que surgem com o avanço dessas tecnologias. Garantir que os benefícios da robótica na saúde sejam acessíveis e equitativos, ao mesmo tempo que se protegem os direitos dos pacientes e se mantém a integridade do cuidado humano, será crucial para o sucesso contínuo dessa revolução tecnológica.
 
 À medida que avançamos, é essencial que continuemos a explorar e a investir em inovações robóticas, sempre com um compromisso com a segurança, a eficácia e a ética. O impacto positivo potencial desses desenvolvimentos promete redefinir o futuro dos cuidados médicos, oferecendo novas oportunidades para melhorar a saúde e o bem-estar global.
-
-
