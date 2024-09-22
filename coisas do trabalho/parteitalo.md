@@ -40,7 +40,7 @@ Apesar dos numerosos benefícios, os cobots enfrentam alguns desafios:
 
 Os cobots estão no centro da **Indústria 4.0**, uma revolução na manufatura que integra tecnologias digitais, automação avançada e conectividade em rede. Com a capacidade de se comunicar e colaborar com outros sistemas inteligentes, como máquinas de CNC, impressoras 3D e sistemas de gerenciamento de produção, os cobots desempenham um papel essencial na criação de fábricas **inteligentes e conectadas**. Esse nível de interconectividade permite uma produção mais eficiente, adaptativa e personalizada, que pode ser monitorada e otimizada em tempo real.
 
-Produção Descentralizada e Autônoma
+### Produção Descentralizada e Autônoma
 Com a Indústria 4.0, a ideia de uma produção descentralizada torna-se possível. Os cobots podem ser instalados em várias fábricas ao redor do mundo, operando de forma autônoma, mas conectados a uma rede central. Isso permite que as empresas monitorem e ajustem a produção globalmente, utilizando sistemas de controle baseados na nuvem.
 
 Além disso, o advento da tecnologia 5G permite que os cobots operem com uma latência extremamente baixa, garantindo respostas em tempo real a comandos e ajustes. Isso é essencial para operações que exigem precisão e rapidez, como em linhas de produção automotivas ou na manufatura de eletrônicos.
