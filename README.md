@@ -32,6 +32,8 @@ O projeto principal do curso envolve:
 Aqui estão os temas sugeridos para os seminários:
 
 1. **História e Evolução da Robótica**
+ - v1: 201910350611 
+ - V2: 202110272411 201910402211
 2. **Princípios de Controle e Autonomia em Robôs**
 3. **Sensores e Atuadores em Robótica**
 4. **Inteligência Artificial e Aprendizado de Máquina em Robótica**
@@ -39,9 +41,15 @@ Aqui estão os temas sugeridos para os seminários:
 6. **Robótica Humanoide: Desafios e Avanços**
 7. **Ética e Robótica**
 8. **Robótica na Medicina: Cirurgia e Reabilitação**
+ - V1: 201910351011 202110272411 202010357611
+ - V2: 202010077411 201910072711
 9. **Robôs Autônomos em Ambientes Não Estruturados**
 10. **Impacto da Ficção Científica na Robótica**
+ - V1: 202010077411 201910402211
+ - V2: 202010358111 201910351011
 11. **Robotização do Homem: Limites e Possibilidades**
+ - v1: 202010358111 201910072711
+ - V2: 201910350611 202110272411 
 12. **Interfaces Homem-Robô**
 
 ### Uso de Inteligência Artificial no Desenvolvimento dos Trabalhos
