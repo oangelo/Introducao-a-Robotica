@@ -32,6 +32,27 @@ A década de 2010 testemunhou a crescente integração de Inteligência Artifici
 Robôs na área da saúde são dispositivos automatizados que assistem ou realizam tarefas médicas, variando desde cirurgias complexas até cuidados diários de pacientes. Eles são projetados para melhorar a precisão, reduzir erros humanos, e muitas vezes, tornar procedimentos médicos menos invasivos e mais eficientes.
 Os robôs médicos podem ser classificados em diferentes tipos, de acordo com suas funções:
 
+1. **História e Evolução da Robótica**
+ - v1: 201910350611 
+ - V2: 202110272411 201910402211
+2. **Princípios de Controle e Autonomia em Robôs**
+3. **Sensores e Atuadores em Robótica**
+4. **Inteligência Artificial e Aprendizado de Máquina em Robótica**
+5. **Robótica na Indústria: Automação e Fabricação**
+6. **Robótica Humanoide: Desafios e Avanços**
+7. **Ética e Robótica**
+8. **Robótica na Medicina: Cirurgia e Reabilitação**
+ - V1: 201910351011 202110272411 202010357611
+ - V2: 202010077411 201910072711
+9. **Robôs Autônomos em Ambientes Não Estruturados**
+10. **Impacto da Ficção Científica na Robótica**
+ - V1: 202010077411 201910402211
+ - V2: 202010358111 201910351011
+11. **Robotização do Homem: Limites e Possibilidades**
+ - v1: 202010358111 201910072711
+ - V2: 201910350611 202110272411 
+12. **Interfaces Homem-Robô**
+
 1. **Robôs Cirúrgicos**: Projetados para auxiliar ou realizar cirurgias.
 2. **Robôs Assistivos**: Esses robôs são usados para ajudar pacientes em atividades diárias, especialmente aqueles com mobilidade reduzida. 
 3. **Robôs de Reabilitação**: Utilizados em fisioterapia, esses robôs auxiliam na recuperação de funções motoras após lesões ou cirurgias. Eles permitem que os pacientes realizem exercícios repetitivos de forma controlada, o que é crucial para a reabilitação neurológica.
