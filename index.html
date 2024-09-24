@@ -1,535 +1,265 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>Robótica na Medicina</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/beige.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css"
     />
-    <!-- Tema escuro -->
-    <style>
-
-      /* Cores Temáticas */
-      :root {
-        --background-color: #030303; /* Azul escuro cibernético */
-        --text-color: #ccc; /* Branco */
-        --highlight-color: #ffffff; /* Verde saúde */
-        --image-margin: 20px; /* Espaço ao redor das imagens */
-      }
-
-      /* Customização do tema */
-      .reveal {
-        background-color: var(--background-color); /* Fundo escuro */
-        color: var(--text-color); /* Texto claro */
-      }
-      .reveal h1,
-      .reveal h2,
-      .reveal h3 {
-        color: var(--highlight-color); /* Cores dos títulos em verde saúde */
-      }
-      .reveal p {
-        color: var(--text-color); /* Cores do texto em branco */
-      }
-      .reveal section {
-        padding: 20px; /* Adiciona espaço interno nas seções */
-      }
-      .reveal section img {
-        margin: var(--image-margin); /* Adiciona espaço em torno das imagens */
-      }
-      .reveal section[data-background] {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-       .group-names {
-            margin-top: 80px;
-            font-size: 0.7em;
-        }
-        .group-names p {
-            margin: 5px 0;
-            color: var(--text-color);
-            font-weight: bold;
-        }
-    </style>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <!-- Slide 1: Título -->
         <section
-          data-transition="zoom"
-          data-background="./images/intro.png"
-          data-background-opacity="0.3"
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
         >
-          <h3><span style="color: #8b743d">Robótica</span> na medicina</h3>
-          <h4 style="color: #ffffff;">Transformando a Medicina Moderna</h4>
-          <div class="group-names">
-                    <p>Marcelo Bracet</p>
-                    <p>João Victor Carneiro</p>
-                    <p>Carolina Dornelas</p>
-                </div>
+          <h1>Projeto de Robótica</h1>
+          <h3>Dinâmica e Expectativas</h3>
         </section>
 
-        <!-- Slide 2: Introdução -->
-        <section>
-          <h3><span style="color: #8b743d">Introdução</span></h3>
-          <p>
-            A robótica na saúde representa uma das mais notáveis interseções
-            entre tecnologia avançada e medicina moderna. Ela permite um
-            atendimento mais eficaz, redução de erros humanos, cirurgias menos
-            invasivas e uma recuperação mais rápida para os pacientes.
-          </p>
-        </section>
-
-        <section data-background="./images/timeline.png" data-background-opacity="0.1" style="text-align: center;">
-          <h3><span style="color: #8b743d">Linha Histórica</span> da Robótica na Saúde</h3>
-        
-          <section>
-            <h3><span style="color: #8b743d">Década de 1980</span></h3>
-            <p>
-              Primeiros avanços com o Robô Puma 560 para biópsias.
-            </p>
-            <img src="images/puma-560.png" style="width: 250px; margin: 0 auto;" />
-          </section>
-        
-          <section>
-            <h3><span style="color: #8b743d">1990</span></h3>
-            <p>
-              Sistema Robótico AESOP, primeiro robô assistente cirúrgico aprovado pela FDA.
-            </p>
-            <img src="images/The-AESOP-surgical-robotic-platform-for-camera-handling.png" style="width: 180px; margin: 0 auto;" />
-          </section>
-        
-          <section>
-            <h3><span style="color: #8b743d">2000</span></h3>
-            <p>
-              Da Vinci Surgical System revoluciona cirurgias minimamente invasivas.
-            </p>
-            <img src="images/daVinciPhoto_page-0001_l26clt.jpg" style="width: 300px; margin: 0 auto;" />
-          </section>
-        
-          <section>
-            <h3><span style="color: #8b743d">2010</span></h3>
-            <p>
-              Integração de IA com robôs autônomos como o STAR e TUG.
-            </p>
-            <img src="images/star_robot.jpg" style="width: 250px; margin: 0 auto;" />
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">2020</span></h3>
-            <p>
-              Expansão durante a pandemia de COVID-19 com robôs de desinfecção e telemedicina.
-            </p>
-            <img src="images/robo-desinf.png" style="width: 300px; margin: 0 auto;" />
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Presente e Futuro:</span></h3>
-            <p>
-              Cirurgias assistidas por IA, robôs de reabilitação e diagnósticos autônomos.
-            </p>
-          </section>
-        </section>
-        
-        <section>
-          <h3><span style="color: #8b743d">Definição</span> e Tipos de Robôs</h3>
-          <ul style="display: flex; flex-direction: column; gap: 15px;">
-            <li>
-              <strong>Robôs Cirúrgicos:</strong> Auxiliam cirurgiões em
-              procedimentos complexos.
-            </li>
-            <li>
-              <strong>Robôs Assistivos:</strong> Ajudam pacientes em atividades
-              diárias.
-            </li>
-            <li>
-              <strong>Robôs de Reabilitação:</strong> Auxiliam na recuperação de
-              funções motoras.
-            </li>
-            <li>
-              <strong>Robôs de Diagnóstico:</strong> Ajudam na detecção e
-              diagnóstico de doenças.
-            </li>
-            <li>
-              <strong>Robôs de Telemedicina:</strong> Facilitam o monitoramento
-              e interação remota com pacientes.
-            </li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Inovações <span style="color: #8b743d">Emergentes</span></h3>
-          <h4 style="color: #ffffff;">Nanorrobôs para Tratamento de Doenças</h4>
-          <p>
-            Administração precisa de medicamentos, Tratamento de Doenças (Tumores) e Cirurgia minimamente invasiva.
-          </p>
-        </section>
-
-        <section>
-
-          <section>
-            <h3>Robôs na <span style="color: #8b743d">Cirurgia e Reabilitação</span> </h3>
-            <p>
-              Robôs têm revolucionado a medicina, especialmente em áreas como cirurgia e reabilitação. Eles permitem maior precisão, menos invasividade e tempos de recuperação mais rápidos.
-            </p>
-          </section>
-
-          <section>
-            <h3>Robôs <span style="color: #8b743d">Cirúrgicos</span></h3>
-            <p>
-              Robôs cirúrgicos são usados para realizar procedimentos minimamente invasivos com precisão e controle que superam as capacidades humanas em alguns casos. Eles reduzem riscos e tempo de recuperação.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Da Vinci Surgical System</span></h3>
-            <p>
-              O <b>Da Vinci</b> é um dos robôs cirúrgicos mais avançados e utilizados no mundo. Ele permite que o cirurgião controle braços robóticos com movimentos precisos a partir de um console, usando uma câmera 3D para visualização detalhada.
-            </p>
-            <img src="images/davinci.png" style="width: 400px;">
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Da Vinci Surgical System</span></h3>
-            <p>
-              <strong>Como Funciona:</strong> O cirurgião manipula controles que movem os braços robóticos, que imitam os movimentos da mão humana, mas com precisão superior. Isso permite incisões menores, menos dor pós-operatória e recuperação mais rápida.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Da Vinci</span></h3>
-            <video controls width="800">
-              <source src="videos/davinci.mp4" type="video/mp4" />
-              Seu navegador não suporta a exibição de vídeos.
-            </video>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Mako Robotic-Arm Assisted Surgery</span></h3>
-            <p>
-              O <b>Mako</b> é usado para procedimentos ortopédicos, como substituição de joelho e quadril. Ele combina a análise de imagem pré-operatória com a assistência robótica para melhorar a precisão do procedimento.
-            </p>
-            <img src="images/mako.png" width="400px">
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Mako Robotic-Arm Assisted Surgery</span></h3>
-            <p>
-              <strong>Como Funciona:</strong> Antes da cirurgia, é feito um modelo 3D do osso do paciente. Durante o procedimento, o robô guia o cirurgião na remoção do tecido doente, garantindo que a nova articulação seja implantada com precisão.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Mako</span></h3>
-            <video controls width="800">
-              <source src="videos/mako.mp4" type="video/mp4" />
-              Seu navegador não suporta a exibição de vídeos.
-            </video>
-          </section>
-
-          <section>
-            <h3>Robôs de <span style="color: #8b743d">Reabilitação</span></h3>
-            <p>
-              Robôs de reabilitação ajudam pacientes a recuperarem movimentos e funções motoras após lesões ou doenças, como derrames ou acidentes.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Lokomat</span></h3>
-            <p>
-              O <b>Lokomat</b> é um robô de reabilitação utilizado para ajudar pacientes com dificuldades de locomoção. Ele é comumente usado em fisioterapia para pacientes com lesões na medula espinhal ou após um AVC.
-            </p>
-            <img src="images/68750-11939172.jpg" width="350px">
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Lokomat</span></h3>
-            <p>
-              <strong>Como Funciona:</strong> O paciente é suspenso em um sistema de suporte enquanto o robô move as pernas de maneira controlada, simulando o movimento de andar. Isso ajuda o paciente a recuperar a capacidade de andar de forma gradual.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Lokomat</span></h3>
-            <video controls width="800">
-              <source src="videos/lokomat.mp4" type="video/mp4" />
-              Seu navegador não suporta a exibição de vídeos.
-            </video>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">ReWalk</span></h3>
-            <p>
-              O <b>ReWalk</b> é um exoesqueleto robótico usado para ajudar pessoas com paralisia nas pernas a caminhar novamente. Ele é controlado por um sistema de sensores e movimentos corporais do paciente.
-            </p>
-            <img src="images/ekso-rewalk-cyberdyne.jpg" width="350px">
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">ReWalk</span></h3>
-            <p>
-              <strong>Como Funciona:</strong> O paciente veste o exoesqueleto que é controlado por movimentos do corpo, como inclinações para frente ou para trás. O sistema então aciona os motores que movem as pernas do paciente, permitindo que ele ande com assistência mínima.
-            </p>
-          </section>
-
-        <section>
-          <h3><span style="color: #8b743d">Rewalk</span></h3>
-          <video controls width="800">
-            <source src="videos/rewalk.mp4" type="video/mp4" />
-            Seu navegador não suporta a exibição de vídeos.
-          </video>
-        </section>
-      </section>
-
-        <section>
-          <section>
-            <h3><span style="color: #8b743d">Neuralink</span> e a Interface Cérebro-Máquina</h3>
-            <p>
-              A Neuralink é uma empresa de neurotecnologia fundada por Elon Musk em 2016. Seu objetivo é desenvolver interfaces cérebro-máquina (ICM) para permitir a comunicação direta entre o cérebro humano e computadores ou máquinas externas.
-            </p>
-            
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Neuralink</span> e a Interface Cérebro-Máquina</h3>
-            <p>
-              A tecnologia envolve o uso de eletrodos extremamente finos, chamados "fios", que são inseridos no cérebro para captar sinais neurais e transmiti-los a dispositivos externos.
-            </p>
-            <img src="images/neuralink.png" width="400px">
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Objetivo</span> da Neuralink</h3>
-            <p>
-              O principal objetivo é desenvolver uma interface que permitirá interação direta com a tecnologia digital, sem a necessidade de teclados, telas ou controles físicos.
-            </p>
-            <p>
-              Isso tem implicações profundas para a saúde e para a interação humana com a tecnologia.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Aplicações</span> na Saúde</h3>
-            <ul style="font-size: 32px; display: flex; flex-direction: column; gap: 20px;">
-              <li><strong>Controle de Próteses Robóticas:</strong> Ajudar pessoas com paralisia ou perda de membros a controlar próteses robóticas usando sinais neurais para movimentos precisos e naturais.</li>
-              <li><strong>Tratamento de Doenças Neurológicas:</strong> Revolucionar o tratamento de condições como Parkinson, epilepsia e depressão severa através da estimulação elétrica no cérebro.</li>
-              <li><strong>Recuperação de Funções Sensoriais:</strong> Potencial para restaurar visão, audição e outros sentidos ao retransmitir estímulos diretamente para o cérebro, contornando nervos danificados.</li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section>
-          <h3>Robôs de <span style="color: #8b743d">Telemedicina</span></h3>
-          <p>
-            Facilitam consultas remotas e monitoramento de pacientes,
-            especialmente em áreas remotas ou para pacientes com mobilidade
-            limitada.
-          </p>
-          <img src="images/robo-telem.png" width="400px">
-        </section>
-
-        <section>
-          <section>
-            <h3>Integração de <span style="color: #8b743d">IA</span>  <span style="color: #8b743d">e Robótica</span></h3>
-            <ol style="display: flex; flex-direction: column; gap: 20px;">
-              <li>
-                <strong>Análise de Dados Médicos:</strong> IA processa grandes
-                volumes de dados para diagnósticos mais precisos.
-              </li>
-              <li>
-                <strong>Tomada de Decisões Autônoma:</strong> Robôs usam IA para
-                realizar procedimentos com precisão em tempo real.
-              </li>
-              <li>
-                <strong>Assistência Personalizada ao Paciente:</strong> IA adapta
-                terapias de acordo com as necessidades individuais.
-              </li>
-            </ol>
-          </section>
-          <section>
-            <h3><span style="color: #8b743d">DeepMind Health (Google)</span></h3>
-            <p>
-              A DeepMind, divisão da Alphabet, desenvolveu sistemas de IA avançados capazes de diagnosticar doenças oculares e renais com maior precisão.
-            </p>
-          </section>
-          <section>
-            <h3><span style="color: #8b743d">Zebra Medical Vision</span></h3>
-            <p>
-              Plataforma de IA analisa exames de imagem (como tomografias e ressonâncias magnéticas) para detectar sinais de doenças como pneumonia, osteoporose e doenças cardíacas.
-            </p>
-          </section>
-        </section>
-
-        <section>
-          <section>
-            <h3><span style="color: #8b743d">Questões Éticas</span> na Robótica e IA na Saúde</h3>
-            <h3>1. Privacidade dos Dados</h3>
-            <p>
-              A coleta e o processamento de grandes volumes de dados médicos pelos robôs e sistemas de IA levantam preocupações sobre a privacidade. A proteção dos dados dos pacientes deve seguir rigorosas diretrizes de segurança para evitar vazamentos ou uso indevido de informações sensíveis.
-            </p>
-          </section>
-
-          <section>
-            <h3>2. Autonomia e Tomada de Decisão</h3>
-            <p>
-              À medida que os robôs e sistemas de IA ganham mais autonomia na tomada de decisões médicas, surge a questão da responsabilidade em caso de erros. Quem será responsabilizado por um erro cirúrgico ou diagnóstico errado – o robô, o programador ou o médico supervisor?
-            </p>
-          </section>
-
-          <section>
-            <h3>3. Relação Médico-Paciente</h3>
-            <p>
-              O aumento do uso de robôs pode alterar a dinâmica da relação médico-paciente. A presença de máquinas no atendimento pode criar uma sensação de desumanização e distanciamento, o que pode impactar a confiança e a comunicação entre os pacientes e os profissionais de saúde.
-            </p>
-          </section>
-        </section>
-
-        <section>
-          <h3><span style="color: #8b743d">Regulamentação</span></h3>
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Visão Geral do Projeto</h2>
           <ul>
-            <li style="margin-top: 20px;">
-              <strong>Aprovações Regulatórias:</strong> FDA nos EUA, ANVISA no
-              Brasil.
+            <li>Trabalho em grupos de 3</li>
+            <li>Pesquisa e apresentação sobre um tema de robótica</li>
+            <li>
+              Desenvolvimento colaborativo de critérios de avaliação (rubrica)
             </li>
-            <li  style="margin-top: 20px;">
-              <strong>Padrões Internacionais:</strong> ISO 13485 para qualidade
-              e segurança.
-            </li>
-            <li  style="margin-top: 20px;">
-              <strong>Acompanhamento Pós-Mercado:</strong> Monitoramento
-              contínuo e relatórios de incidentes.
-            </li>
+            <li>Apresentações em reveal.js (30 min + 10 min para perguntas)</li>
+            <li>Avaliação por pares e reflexão</li>
+            <li>Todo o processo documentado no GitHub</li>
           </ul>
         </section>
 
-        <section>
-          <section>
-            <h3>Robótica na Medicina: <span style="color: #8b743d">Cenário Brasileiro</span></h3>
-            <ul>
-              <li><strong>Adoção Crescente:</strong> A robótica na saúde está avançando no Brasil, principalmente na área de <strong>cirurgias minimamente invasivas</strong>.</li>
-              <li style="margin-top: 30px;"><strong>Dados Globais:</strong> Desde 1990, foram realizados <strong>8,5 milhões de procedimentos robóticos</strong> no mundo.</li>
-            </ul>
-          </section>
-
-          
-
-          <section>
-            <ul>
-              <li><strong>Cenário Nacional:</strong></li>
-              <ul>
-                <li>Em 2017, cerca de <strong>6 mil cirurgias robóticas</strong> foram realizadas no Brasil.</li>
-                <li style="margin-top: 30px;">O país conta com <strong>aproximadamente 50 robôs cirúrgicos</strong>, número em crescimento.</li>
-              </ul>
-              <li style="margin-top: 30px;"><strong>Crescimento Estimado:</strong> A Sociedade Brasileira de Cirurgia Minimamente Invasiva e Robótica (Sobracil) prevê um aumento de <strong>30% ao ano</strong> nas cirurgias robóticas no Brasil.</li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section>
-          <section>
-            <h2><span style="color: #8b743d">Desafios</span> da Robótica na Medicina</h2>
-            <p>
-              Apesar dos avanços na robótica aplicada à saúde, existem desafios significativos a serem superados. Vamos explorar alguns dos principais obstáculos enfrentados por essa tecnologia.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Custo e Acessibilidade</span></h3>
-            <p>
-              O alto custo dos robôs limita sua acessibilidade, especialmente em hospitais menores e em países em desenvolvimento.
-            </p>
-            <p>
-              Reduzir os custos de fabricação e manutenção é crucial para garantir que a tecnologia possa ser amplamente adotada em diversas regiões.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Segurança e Confiabilidade</span></h3>
-            <p>
-              Garantir a segurança e confiabilidade dos robôs em contextos clínicos é um desafio fundamental.
-            </p>
-            <p>
-              Isso exige avanços contínuos em sistemas de controle, redundância tecnológica e prevenção de falhas para evitar riscos aos pacientes.
-            </p>
-          </section>
-
-          <section>
-            <h3><span style="color: #8b743d">Aceitação e Adaptação Humana</span></h3>
-            <p>
-              A aceitação dos robôs por parte de profissionais de saúde e pacientes pode ser um obstáculo à adoção dessa tecnologia.
-            </p>
-            <p>
-              Investir em treinamento especializado é fundamental para ajudar os profissionais a se adaptarem a essas novas ferramentas tecnológicas.
-            </p>
-          </section>
-
-        </section>
-       
-
-        <section >
-          <h2><span style="color: #8b743d">Conclusão</span></h2>
-          <p>
-            A robótica na saúde está revolucionando a medicina, oferecendo novas
-            oportunidades para tratamento e cuidado dos pacientes. A evolução
-            contínua das tecnologias promete um futuro com procedimentos ainda
-            mais seguros e eficazes.
-          </p>
-        </section>
-
-        <section>
-          <h3><span style="color: #8b743d">Bibliografia</span> e Links Úteis</h3>
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Divisão do Tópico e Rotação de Papéis</h2>
           <ul>
-            <li><a href="https://www.neuralink.com" target="_blank">Site oficial da Neuralink</a></li>
-            <li><a href="https://www.youtube.com/watch?v=r-vbh3t7WVI" target="_blank">Vídeo: Entenda como funciona a Neuralink</a></li>
-            <li><a href="https://drrafaelcoelho.com.br/cirurgia-robotica/" target="_blank">Site: Cirurgia Robótica</a></li>
-            <li><a href="https://www.youtube.com/watch?v=J-Eh4MydwP8" target="_blank">Vídeo: Cirurgia robótica cada vez mais avançada</a></li>
-            <li><a href="https://bvsms.saude.gov.br/revolucao-da-inteligencia-artificial-uso-na-saude-traz-novas-possibilidades/" target="_blank">Site: Biblioteca virtual em saúde</a></li>
-            <!-- Adicione mais links conforme necessário -->
+            <li>Divida o tópico principal em pelo menos 3 subtemas</li>
+            <li>Cada membro assumirá um papel diferente para cada subtema</li>
+            <li>Garante que todos experimentem cada papel</li>
+            <li>Promove uma compreensão abrangente do projeto</li>
           </ul>
         </section>
 
-        <section>
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Exemplo de Divisão e Rotação</h2>
+          <table>
+            <tr>
+              <th>Subtema</th>
+              <th>Pesquisador</th>
+              <th>Desenvolvedor</th>
+              <th>Revisor</th>
+            </tr>
+            <tr>
+              <td>Subtema 1</td>
+              <td>Aluno A</td>
+              <td>Aluno B</td>
+              <td>Aluno C</td>
+            </tr>
+            <tr>
+              <td>Subtema 2</td>
+              <td>Aluno C</td>
+              <td>Aluno A</td>
+              <td>Aluno B</td>
+            </tr>
+            <tr>
+              <td>Subtema 3</td>
+              <td>Aluno B</td>
+              <td>Aluno C</td>
+              <td>Aluno A</td>
+            </tr>
+          </table>
+        </section>
+
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Papéis no Grupo</h2>
+          <p>
+            Cada membro assumirá um papel específico para cada subtema,
+            rotacionando entre os subtemas:
+          </p>
+          <ul>
+            <li>
+              <strong>Pesquisador:</strong> Coleta e organiza informações
+              relevantes
+            </li>
+            <li>
+              <strong>Desenvolvedor:</strong> Cria o conteúdo da apresentação em
+              reveal.js
+            </li>
+            <li>
+              <strong>Revisor:</strong> Verifica qualidade, coerência e faz
+              edições finais
+            </li>
+          </ul>
+        </section>
+
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Responsabilidades dos Papéis</h2>
+          <ul>
+            <li>
+              <strong>Pesquisador:</strong> Busca fontes confiáveis, resume
+              informações, propõe estrutura do conteúdo para o subtema
+            </li>
+            <li>
+              <strong>Desenvolvedor:</strong> Transforma a pesquisa em slides
+              reveal.js, cria gráficos/diagramas, formata o conteúdo do subtema
+            </li>
+            <li>
+              <strong>Revisor:</strong> Verifica precisão, clareza, coerência,
+              sugere melhorias, faz correções finais para o subtema
+            </li>
+          </ul>
+        </section>
+
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Uso do GitHub</h2>
+          <ul>
+            <li>Todo o conteúdo do projeto deve estar no GitHub</li>
+            <li>Crie uma branch para cada subtema</li>
+            <li>Faça commits frequentes para registrar seu progresso</li>
+            <li>Use pull requests para revisões e merges</li>
+            <li>Use issues para rastrear tarefas e discussões</li>
+            <li>
+              Mantenha um documento de planejamento mostrando a divisão de
+              subtemas e papéis
+            </li>
+          </ul>
+        </section>
+
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>O que é uma Rubrica?</h2>
+          <ul>
+            <li>Ferramenta de avaliação que lista critérios específicos</li>
+            <li>Define diferentes níveis de desempenho para cada critério</li>
+            <li>Ajuda a entender as expectativas do projeto</li>
+            <li>Guia tanto o desenvolvimento quanto a avaliação do trabalho</li>
+          </ul>
+        </section>
+
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Desenvolvimento da Rubrica</h2>
+          <ul>
+            <li>Sessão de brainstorming em sala</li>
+            <li>Discussão e refinamento dos critérios</li>
+            <li>Definição dos níveis de desempenho para cada critério</li>
+            <li>Finalização colaborativa da rubrica</li>
+            <li>
+              A rubrica será usada para auto-avaliação e avaliação por pares
+            </li>
+          </ul>
+        </section>
+
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Formato da Apresentação</h2>
+          <ul>
+            <li>Usando reveal.js (como esta apresentação)</li>
+            <li>30 minutos de apresentação</li>
+            <li>10 minutos para perguntas e discussão</li>
+            <li>
+              Deve incluir elementos visuais e, se possível, demonstrações
+              práticas
+            </li>
+            <li>Todos os membros do grupo devem participar</li>
+          </ul>
+        </section>
+
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Avaliação por Pares</h2>
+          <ul>
+            <li>Use a rubrica desenvolvida em sala</li>
+            <li>Seja construtivo e respeitoso</li>
+            <li>Forneça comentários específicos e acionáveis</li>
+            <li>
+              Avalie todas as apresentações, exceto a do seu próprio grupo
+            </li>
+            <li>Submeta avaliações via GitHub como issues</li>
+          </ul>
+        </section>
+
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Etapas do Projeto</h2>
+          <ol>
+            <li>
+              Formação de grupos, escolha do tema, divisão em subtemas, setup do
+              GitHub
+            </li>
+            <li>
+              Desenvolvimento da rubrica e início da pesquisa nos subtemas
+            </li>
+            <li>
+              Pesquisa e desenvolvimento do conteúdo em reveal.js para cada
+              subtema
+            </li>
+            <li>Integração dos subtemas, revisão final e ensaios</li>
+            <li>Apresentações e avaliações por pares</li>
+            <li>Reflexão final e discussão em grupo</li>
+          </ol>
+        </section>
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
+          <h2>Expectativas</h2>
+          <ul>
+            <li>
+              Participação ativa de todos os membros do grupo em cada etapa
+            </li>
+            <li>Pesquisa aprofundada e conteúdo original para cada subtema</li>
+            <li>Apresentações envolventes e informativas</li>
+            <li>Respeito e apoio mútuo durante todo o processo</li>
+            <li>Abertura para feedback e disposição para aprender</li>
+            <li>Uso efetivo do GitHub para documentação e colaboração</li>
+          </ul>
+        </section>
+        <section
+          data-background="/api/placeholder/1920/1080"
+          data-background-opacity="0.7"
+        >
           <h2>Perguntas?</h2>
-          <p>(Feedbacks Construtivos ou algo que possa colaborar com nossa apresentação)</p>
-          <a href="#/0">Voltar ao primeiro slide</a>
+          <p>Vamos discutir e esclarecer todos os aspectos do projeto!</p>
         </section>
       </div>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
     <script>
-      Reveal.initialize({
-        width: 960,
-        height: 700,
-        margin: 0.1,
-        minScale: 0.2,
-        maxScale: 1.5,
-        transition: "convex",
-        backgroundTransition: "fade",
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        slideNumber: true,
-        keyboard: true,
-        overview: true,
-        touch: true,
-        fragments: true,
-        dependencies: [
-          {
-            src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.js",
-            async: true,
-          },
-        ],
-      });
+      Reveal.initialize();
     </script>
   </body>
 </html>
