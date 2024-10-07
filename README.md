@@ -101,19 +101,19 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
 
 6. **Impacto da Ficção Científica na Robótica**
    - **V1**: Steffany, Felipe P.
-   - **V2**: Matheus, Tatiana
+   - **V2**: Matheus, João Vinicius
 
 ### Terça-feira, **26 de novembro de 2024**
 
 7. **Robotização do Homem: Limites e Possibilidades**
    - **V1**: João Vinicius, Rayssa
-   - **V2**: Felipe P., Rayssa
+   - **V2**: Felipe P., Lorena
 
 ### Terça-feira, **3 de dezembro de 2024**
 
 8. **Interfaces Homem-Robô**
    - **V1**: Lorena, Renan, João Henrique
-   - **V2**: João Vinicius, Lorena
+   - **V2**: Tatiana,  Rayssa
 
 ### Uso de Inteligência Artificial no Desenvolvimento dos Trabalhos
 
