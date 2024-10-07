@@ -67,53 +67,121 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
 
 ## Cronograma de Seminários
 
-### Terça-feira, **15 de outubro de 2024**
+### **1. História e Evolução da Robótica**
 
-1. **História e Evolução da Robótica**
-   - **V1**: Sarah
-   - **V2**: Carolina, Steffany
+- **V1 Apresentadores:**
+  - Sarah
 
-### Terça-feira, **22 de outubro de 2024**
+- **V2 Apresentadores:**
+  - Carolina
+  - Steffany
 
-2. **Inteligência Artificial e Aprendizado de Máquina em Robótica**
-   - **V1**: Luis Felipe, Victor H., Victor P.
-   - **V2**: João Victor, Renan
+- **Data de Apresentação:** Terça-feira, **15 de outubro de 2024**
 
-### Terça-feira, **29 de outubro de 2024**
+---
 
-3. **Robótica na Indústria: Automação e Fabricação**
-   - **V1**: Matheus, Ítalo
-   - **V2**: Sarah, Luis Eduardo
+### **4. Inteligência Artificial e Aprendizado de Máquina em Robótica**
 
-### Terça-feira, **5 de novembro de 2024**
+- **V1 Apresentadores:**
+  - Luis Felipe
+  - Victor Hugo
+  - Victor Pinheiro
 
-4. **Robótica na Medicina: Cirurgia e Reabilitação**
-   - **V1**: João Victor, Carolina, Marcelo
-   - **V2**: Victor H., Felipe C.
+- **V2 Apresentadores:**
+  - João Vinicius
+  - Sarah
+  - João Henrique
 
-### Terça-feira, **12 de novembro de 2024**
+- **Data de Apresentação:** Terça-feira, **22 de outubro de 2024**
 
-5. **Robôs Autônomos em Ambientes Não Estruturados**
-   - **V1**: Felipe C., Tatiana, Luis Eduardo
-   - **V2**: Marcelo, João Henrique
+---
 
-### Terça-feira, **19 de novembro de 2024**
+### **5. Robótica na Indústria: Automação e Fabricação**
 
-6. **Impacto da Ficção Científica na Robótica**
-   - **V1**: Steffany, Felipe P.
-   - **V2**: Matheus, João Vinicius
+- **V1 Apresentadores:**
+  - Matheus
+  - Ítalo
 
-### Terça-feira, **26 de novembro de 2024**
+- **V2 Apresentadores:**
+  - Luis Felipe
+  - Tatiana
 
-7. **Robotização do Homem: Limites e Possibilidades**
-   - **V1**: João Vinicius, Rayssa
-   - **V2**: Felipe P., Lorena
+- **Data de Apresentação:** Terça-feira, **29 de outubro de 2024**
 
-### Terça-feira, **3 de dezembro de 2024**
+---
 
-8. **Interfaces Homem-Robô**
-   - **V1**: Lorena, Renan, João Henrique
-   - **V2**: Tatiana,  Rayssa
+### **8. Robótica na Medicina: Cirurgia e Reabilitação**
+
+- **V1 Apresentadores:**
+  - João Victor
+  - Carolina
+  - Marcelo
+
+- **V2 Apresentadores:**
+  - Victor Hugo
+  - Rayssa
+
+- **Data de Apresentação:** Terça-feira, **5 de novembro de 2024**
+
+---
+
+### **9. Robôs Autônomos em Ambientes Não Estruturados**
+
+- **V1 Apresentadores:**
+  - Felipe Carrancho
+  - Tatiana
+  - Luis Eduardo
+
+- **V2 Apresentadores:**
+  - Matheus
+  - Lorena
+
+- **Data de Apresentação:** Terça-feira, **12 de novembro de 2024**
+
+---
+
+### **10. Impacto da Ficção Científica na Robótica**
+
+- **V1 Apresentadores:**
+  - Steffany
+  - Felipe Pinheiro
+
+- **V2 Apresentadores:**
+  - João Victor
+  - Renan
+
+- **Data de Apresentação:** Terça-feira, **19 de novembro de 2024**
+
+---
+
+### **11. Robotização do Homem: Limites e Possibilidades**
+
+- **V1 Apresentadores:**
+  - João Vinicius
+  - Rayssa
+
+- **V2 Apresentadores:**
+  - Victor Pinheiro
+  - Marcelo
+  - Felipe Carrancho
+
+- **Data de Apresentação:** Terça-feira, **26 de novembro de 2024**
+
+---
+
+### **12. Interfaces Homem-Robô**
+
+- **V1 Apresentadores:**
+  - Lorena
+  - Renan
+  - João Henrique
+
+- **V2 Apresentadores:**
+  - Ítalo
+  - Felipe Pinheiro
+  - Luis Eduardo
+
+- **Data de Apresentação:** Terça-feira, **3 de dezembro de 2024**
 
 ### Uso de Inteligência Artificial no Desenvolvimento dos Trabalhos
 
