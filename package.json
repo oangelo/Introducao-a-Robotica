@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "test": "gulp test",
-    "start": "gulp serve",
+    "dev": "gulp serve -p 3000",
     "build": "gulp build"
   },
   "author": {
