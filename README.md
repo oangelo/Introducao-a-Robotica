@@ -106,7 +106,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Luis Felipe
   - Tatiana
 
-- **Data de Apresentação:** Terça-feira, **29 de outubro de 2024**
+- **Data de Apresentação:** Terça-feira, **22 de outubro de 2024**
 
 ---
 
@@ -121,7 +121,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Victor Hugo
   - Rayssa
 
-- **Data de Apresentação:** Terça-feira, **5 de novembro de 2024**
+- **Data de Apresentação:** Terça-feira, **29 de outubro de 2024**
 
 ---
 
@@ -136,7 +136,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Matheus
   - Lorena
 
-- **Data de Apresentação:** Terça-feira, **12 de novembro de 2024**
+- **Data de Apresentação:** Terça-feira, **29 de outubro de 2024**
 
 ---
 
@@ -150,7 +150,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - João Victor
   - Renan
 
-- **Data de Apresentação:** Terça-feira, **19 de novembro de 2024**
+- **Data de Apresentação:** Terça-feira, **5 de novembro de 2024**
 
 ---
 
@@ -165,7 +165,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Marcelo
   - Felipe Carrancho
 
-- **Data de Apresentação:** Terça-feira, **26 de novembro de 2024**
+- **Data de Apresentação:** Terça-feira, **5 de novembro de 2024**
 
 ---
 
@@ -180,8 +180,8 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Ítalo
   - Felipe Pinheiro
   - Luis Eduardo
-
-- **Data de Apresentação:** Terça-feira, **3 de dezembro de 2024**
+  
+- **Data de Apresentação:** Terça-feira, **12 de novembro de 2024**
 
 ### Uso de Inteligência Artificial no Desenvolvimento dos Trabalhos
 
