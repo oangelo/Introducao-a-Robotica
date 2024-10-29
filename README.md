@@ -70,7 +70,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
 ### **1. História e Evolução da Robótica**
 
 - **V1 Apresentadores:**
-  - Sarah
+  - Luisa 
 
 - **V2 Apresentadores:**
   - Carolina
@@ -89,7 +89,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
 
 - **V2 Apresentadores:**
   - João Vinicius
-  - Sarah
+  - Luisa 
   - João Henrique
 
 - **Data de Apresentação:** Terça-feira, **22 de outubro de 2024**
