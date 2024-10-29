@@ -76,8 +76,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Carolina
   - Steffany
 
-- **Data de Apresentação:** Terça-feira, **15 de outubro de 2024**
-
+- **Data de Apresentação:** Terça-feira, **29 de outubro de 2024**
 ---
 
 ### **4. Inteligência Artificial e Aprendizado de Máquina em Robótica**
@@ -92,8 +91,8 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Luisa 
   - João Henrique
 
-- **Data de Apresentação:** Terça-feira, **22 de outubro de 2024**
 
+- **Data de Apresentação:** Terça-feira, **29 de outubro de 2024**
 ---
 
 ### **5. Robótica na Indústria: Automação e Fabricação**
@@ -106,8 +105,8 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Luis Felipe
   - Tatiana
 
-- **Data de Apresentação:** Terça-feira, **22 de outubro de 2024**
 
+- **Data de Apresentação:** Terça-feira, **5 de novembro de 2024**
 ---
 
 ### **8. Robótica na Medicina: Cirurgia e Reabilitação**
@@ -121,8 +120,8 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Victor Hugo
   - Rayssa
 
-- **Data de Apresentação:** Terça-feira, **29 de outubro de 2024**
 
+- **Data de Apresentação:** Terça-feira, **5 de novembro de 2024**
 ---
 
 ### **9. Robôs Autônomos em Ambientes Não Estruturados**
@@ -136,8 +135,8 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Matheus
   - Lorena
 
-- **Data de Apresentação:** Terça-feira, **29 de outubro de 2024**
 
+- **Data de Apresentação:** Terça-feira, **12 de novembro de 2024**
 ---
 
 ### **10. Impacto da Ficção Científica na Robótica**
@@ -150,8 +149,8 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - João Victor
   - Renan
 
-- **Data de Apresentação:** Terça-feira, **5 de novembro de 2024**
 
+- **Data de Apresentação:** Terça-feira, **12 de novembro de 2024**
 ---
 
 ### **11. Robotização do Homem: Limites e Possibilidades**
@@ -165,7 +164,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Marcelo
   - Felipe Carrancho
 
-- **Data de Apresentação:** Terça-feira, **5 de novembro de 2024**
+- **Data de Apresentação:** Terça-feira, **19 de novembro de 2024**
 
 ---
 
@@ -181,7 +180,7 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   - Felipe Pinheiro
   - Luis Eduardo
   
-- **Data de Apresentação:** Terça-feira, **12 de novembro de 2024**
+- **Data de Apresentação:** Terça-feira, **19 de novembro de 2024**
 
 ### Uso de Inteligência Artificial no Desenvolvimento dos Trabalhos
 
