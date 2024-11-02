@@ -27,3 +27,18 @@
 ## Comentários Adicionais
 
 - A relevância das informações foi destacada como ponto positivo, além de uma boa troca de ideias entre os apresentadores. Contudo, uma maior interação entre eles poderia aprimorar a apresentação.
+
+## Médias das Avaliações
+
+| Critério                          | Média       |
+|-----------------------------------|-------------|
+| Precisão do conteúdo              | 4.45        |
+| Profundidade da pesquisa          | 4.45        |
+| Compreensão do tema               | 4.64        |
+| Relevância das informações        | 4.91        |
+| Organização lógica do conteúdo    | 4.73        |
+| Qualidade visual dos slides       | 4.09        |
+| Clareza da apresentação           | 4.27        |
+| Uso efetivo de recursos visuais   | 4.64        |
+| Engajamento da audiência          | 4.18        |
+| Coesão entre os apresentadores    | 4.36        |
