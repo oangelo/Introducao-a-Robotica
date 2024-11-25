@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Robótica na Medicina</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.css"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/moon.css"
+    />
+    <!-- Tema escuro -->
+    <style>
+      /* Cores Temáticas */
+      :root {
+        --background-color: #030303; /* Azul escuro cibernético */
+        --text-color: #ccc; /* Branco */
+        --highlight-color: #ffffff; /* Verde saúde */
+        --image-margin: 20px; /* Espaço ao redor das imagens */
+      }
+
+      /* Customização do tema */
+      .reveal {
+        background-color: var(--background-color); /* Fundo escuro */
+        color: var(--text-color); /* Texto claro */
+      }
+      .reveal h1,
+      .reveal h2,
+      .reveal h3 {
+        color: var(--highlight-color); /* Cores dos títulos em verde saúde */
+      }
+      .reveal p {
+        color: var(--text-color); /* Cores do texto em branco */
+      }
+      .reveal section {
+        padding: 20px; /* Adiciona espaço interno nas seções */
+      }
+      .reveal section img {
+        margin: var(--image-margin); /* Adiciona espaço em torno das imagens */
+      }
+      .reveal section[data-background] {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .group-names {
+        margin-top: 35px;
+        font-size: 0.7em;
+      }
+      .group-names p {
+        margin: 5px 0;
+        color: var(--text-color);
+        font-weight: bold;
+        text-align: left;
+      }
+
+      .text-and-image {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+      }
+
+      .text-and-image .text {
+        text-align: left; 
+        width: 300px;
+      }
+      .text-and-image img {
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Slide 1: Título -->
+        <section
+          data-transition="zoom"
+          data-background="./images/intro.png"
+          data-background-opacity="0.3"
+        >
+          <h3><span style="color: #002d85">Robótica</span> na medicina</h3>
+          <h4 style="color: #ffffff">Transformando a Medicina Moderna</h4>
+          <div class="group-names" style="display: flex; justify-content:space-around;">
+            <div class="v1">
+              <p style="color: #002d85">V1</p>
+              <p>Marcelo Bracet</p>
+              <p>João Victor Carneiro</p>
+              <p>Carolina Dornelas</p>
+            </div>
+            <div class="v2">
+              <p style="color: #002d85">V2</p>
+              <p>Rayssa Montecchiari</p>
+              <p>Victor Hugo</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 2: Introdução -->
+        <section>
+          <h3><span style="color: #002d85">Introdução</span></h3>
+          <p>
+            A robótica na saúde combina tecnologia avançada e medicina para melhorar o atendimento.
+          </p>
+        </section>
+
+        <section
+          data-background="./images/timeline.png"
+          data-background-opacity="0.1"
+          style="text-align: center"
+        >
+          <h3>
+            <span style="color: #002d85">Linha Histórica</span> da Robótica na
+            Saúde
+          </h3>
+
+          <section>
+            <div class="text-and-image">
+              <div class="text">
+                <h3><span style="color: #002d85">1980</span></h3>
+                <p>Robô Puma 560.</p>
+              </div>
+              <img
+                src="images/puma-560.png"
+                alt="Robô Puma 560"
+              />
+            </div>
+          </section>
+
+          <section>
+            <div class="text-and-image">
+              <div class="text">
+                <h3><span style="color: #002d85">1990</span></h3>
+                <p>
+                  Sistema Robótico AESOP
+                </p>
+              </div>
+              <img
+                style="height: 400px; object-fit: cover; object-position: top;"
+                src="images/The-AESOP-surgical-robotic-platform-for-camera-handling.png"
+                alt="Sistema Robótico AESOP"
+              />
+            </div>
+          </section>
+
+          <section>
+            <div class="text-and-image">
+              <div class="text">
+                <h3><span style="color: #002d85">2000</span></h3>
+                <p>
+                  Da Vinci Surgical System
+                </p>
+              </div>
+              <img
+                src="images/daVinciPhoto_page-0001_l26clt.jpg"
+                
+                alt="Da Vinci Surgical System"
+              />
+            </div>
+          </section>
+
+          <section>
+            
+            <div class="text-and-image">
+              <div class="text">
+                <h3><span style="color: #002d85">2010</span></h3>
+                <p>IA e robôs autônomos</p>
+              </div>
+              <img
+                src="images/star_robot.jpg"
+                alt="STAR e TUG"
+              />
+            </div>
+          </section>
+
+          <section>
+            
+            <div class="text-and-image">
+              <div class="text">
+                <h3><span style="color: #002d85">2020</span></h3>
+                <p>
+                  Robôs de desinfecção e
+                  telemedicina.
+                </p>
+              </div>
+              <img
+                src="images/robo-desinf.png"
+                alt="robôs de desinfecção"
+              />
+            </div>
+          </section>
+
+          <section>
+            <h3><span style="color: #002d85">Presente e Futuro:</span></h3>
+            <p>
+              Cirurgias assistidas por IA, robôs de reabilitação e diagnósticos
+              autônomos.
+            </p>
+          </section>
+        </section>
+
+        <section>
+          <h3>
+            <span style="color: #002d85">Definição</span> e Tipos de Robôs
+          </h3>
+            <ul style="display: flex; flex-direction: column; gap: 15px">
+              <li>
+                <strong>Cirúrgicos</strong> 
+              </li>
+              <li>
+                <strong>Assistivos</strong>
+              </li>
+              <li>
+                <strong>Reabilitação</strong> 
+              </li>
+              <li>
+                <strong>Diagnóstico</strong> 
+              </li>
+              <li>
+                <strong>Telemedicina</strong> 
+              </li>
+            </ul>
+        </section>
+
+        <section>
+          <h3>Inovações <span style="color: #002d85">Emergentes</span></h3>
+          
+          <section>
+            <h4 style="color: #ffffff"> <span style="color: #002d85">Nanorrobôs</span> para Tratamento de Doenças</h4>
+          </section>
+
+          <section>
+            <video controls width="800">
+              <source src="videos/nanorrobos.mp4" type="video/mp4" />
+            </video>
+          </section>
+        </section>
+
+        <section>
+          <h3>
+            Robôs na
+            <span style="color: #002d85">Cirurgia</span>
+          </h3>
+          <section>
+            <p>
+             Da Vinci Surgical System e Mako Robotic-Arm Assisted Surgery
+            </p>
+          </section>
+
+          <section>
+            <p>
+              <span style="color: #002d85"><strong>Da Vinci Surgical System</strong></span> é um dos robôs cirúrgicos mais avançados e utilizados no mundo. Ele permite que o cirurgião controle braços robóticos com movimentos precisos a partir de um console, usando uma câmera 3D para visualização detalhada.
+            </p>            
+          </section>
+          
+          <section>
+            <img src="images/davinci.png" alt="Da Vinci"/>
+          </section>
+
+          <section>
+            <h3><span style="color: #002d85">Da Vinci</span></h3>
+            <video controls width="800">
+              <source src="videos/davinci.mp4" type="video/mp4" />
+            </video>
+          </section>
+
+          <section>
+            <p>
+              O <span style="color: #002d85"
+              >Mako Robotic-Arm Assisted Surgery</span
+            > é usado para procedimentos ortopédicos, como
+              substituição de joelho e quadril. Ele combina a análise de imagem
+              pré-operatória com a assistência robótica para melhorar a precisão
+              do procedimento.
+            </p>
+            
+          </section>
+          
+          <section>
+            <img src="images/mako.png" alt="mako" />
+          </section>
+
+          <section>
+            <h3><span style="color: #002d85">Mako</span></h3>
+            <video controls width="800">
+              <source src="videos/mako.mp4" type="video/mp4" />
+              Seu navegador não suporta a exibição de vídeos.
+            </video>
+          </section>
+        </section>
+
+        <section>
+          <h3>
+            Robôs na
+            <span style="color: #002d85">Reabilitação</span>
+          </h3>
+          <section>
+            <p>
+              Lokomat e ReWalk
+            </p>
+          </section>
+
+          <section>
+            <p>
+              O <span style="color: #002d85">Lokomat</span> é um robô de reabilitação utilizado para ajudar
+              pacientes com dificuldades de locomoção. Ele é comumente usado em
+              fisioterapia para pacientes com lesões na medula espinhal ou após
+              um AVC.
+            </p>
+          </section>
+          
+          <section>
+            <img src="images/68750-11939172.jpg" height="500px" alt="lokomat"/>            
+          </section>
+
+          <section>
+            <video controls width="800">
+              <source src="videos/lokomat.mp4" type="video/mp4" />
+            </video>
+          </section>
+
+          <section>
+            <p>
+              O <span style="color: #002d85">ReWalk</span> é um exoesqueleto robótico usado para ajudar
+              pessoas com paralisia nas pernas a caminhar novamente. Ele é
+              controlado por um sistema de sensores e movimentos corporais do
+              paciente.
+            </p>
+          </section>
+          
+          <section>
+            <img src="images/ekso-rewalk-cyberdyne.jpg" height="500px" alt="rewalk"/>
+          </section>
+
+          <section>
+            <video controls width="800">
+              <source src="videos/rewalk.mp4" type="video/mp4" />
+            </video>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h3>
+              <span style="color: #002d85">Neuralink</span> e a Interface Cérebro-Máquina
+            </h3>
+            <p>
+              Empresa de neurotecnologia fundada por Elon Musk em 2016.
+            </p>
+          </section>
+        
+          <section>
+            <h3>
+              <span style="color: #002d85">Tecnologia</span> da Neuralink
+            </h3>
+            <p>
+              Utiliza eletrodos ultra-finos ("fios") implantados no cérebro para captar e transmitir sinais neurais, viabilizando controle preciso de dispositivos externos.
+            </p>
+          </section>
+        
+          <section>
+            <img src="images/neuralink.png" height="500px" alt="neuralink" />
+          </section>
+        
+          <section>
+            <h3><span style="color: #002d85">Potencial</span> para Aplicações na Saúde</h3>
+            <ul style="font-size: 32px; display: flex; flex-direction: column; gap: 20px;">
+              <li><strong>Controle de Próteses:</strong> Capacitar o controle de próteses robóticas.</li>
+              <li><strong>Tratamento Neurológico:</strong> Utilizar estimulação cerebral para tratar condições como Parkinson e epilepsia.</li>
+              <li><strong>Recuperação Sensorial:</strong> Possibilidade de restaurar sentidos, como visão e audição, transmitindo estímulos diretamente ao cérebro.</li>
+            </ul>
+          </section>
+        </section>
+        
+
+
+        <section>
+          <h3>Robôs de <span style="color: #002d85">Telemedicina</span></h3>
+          <p>
+            Facilitam consultas remotas e monitoramento de pacientes.
+          
+          </p>
+          <img src="images/robo-telem.png" width="400px" alt="telemedicina"/>
+        </section>
+
+        <section>
+          <section>
+            <h3>
+              Integração de <span style="color: #002d85">IA</span>
+              <span style="color: #002d85">e Robótica</span>
+            </h3>
+            <ol style="display: flex; flex-direction: column; gap: 20px">
+              <li>
+                <strong>Análise de Dados Médicos:</strong> IA processa grandes
+                volumes de dados para diagnósticos mais precisos.
+              </li>
+              <li>
+                <strong>Tomada de Decisões Autônoma:</strong> Robôs usam IA para
+                realizar procedimentos com precisão em tempo real.
+              </li>
+              <li>
+                <strong>Assistência Personalizada ao Paciente:</strong> IA
+                adapta terapias de acordo com as necessidades individuais.
+              </li>
+            </ol>
+          </section>
+          <section>
+            <h3>
+              <span style="color: #002d85">DeepMind Health (Google)</span>
+            </h3>
+            <p>
+              A DeepMind, divisão da Alphabet, desenvolveu sistemas de IA
+              avançados capazes de diagnosticar doenças oculares e renais com
+              maior precisão.
+            </p>
+          </section>
+          <section>
+            <h3><span style="color: #002d85">Zebra Medical Vision</span></h3>
+            <p>
+              Plataforma de IA analisa exames de imagem (como tomografias e
+              ressonâncias magnéticas) para detectar sinais de doenças como
+              pneumonia, osteoporose e doenças cardíacas.
+            </p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h3>
+              <span style="color: #002d85">Questões Éticas</span> na Robótica e
+              IA na Saúde
+            </h3>
+            <h3>1. Privacidade dos Dados</h3>
+            <p>
+              A coleta e processamento de dados médicos por robôs e IA levantam preocupações sobre a privacidade dos pacientes. Para evitar vazamentos ou uso indevido, é necessário seguir diretrizes rigorosas de segurança.
+            </p>
+          </section>
+
+          <section>
+            <h3>2. Autonomia e Tomada de Decisão</h3>
+            <p>
+              Com a crescente autonomia de robôs e IA em decisões médicas, surge a questão de quem é responsável por erros – o robô, o programador ou o médico supervisor.
+            </p>
+          </section>
+
+          <section>
+            <h3>3. Relação Médico-Paciente</h3>
+            <p>
+              O uso crescente de robôs na medicina pode afetar a relação médico-paciente, criando uma sensação de desumanização que impacta confiança e comunicação.
+            </p>
+          </section>
+        </section>
+
+        <section>
+          <h3><span style="color: #002d85">Regulamentação</span></h3>
+          <ul>
+            <li style="margin-top: 20px">
+              <strong>Aprovações Regulatórias:</strong> FDA nos EUA, ANVISA no
+              Brasil.
+            </li>
+            <li style="margin-top: 20px">
+              <strong>Padrões Internacionais:</strong> ISO 13485 para qualidade
+              e segurança.
+            </li>
+            <li style="margin-top: 20px">
+              <strong>Acompanhamento Pós-Mercado:</strong> Monitoramento
+              contínuo e relatórios de incidentes.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <section>
+            <h3>
+              Robótica na Medicina:
+              <span style="color: #002d85">Cenário Brasileiro</span>
+            </h3>
+            <ul>
+              <li>
+                <strong>Adoção Crescente:</strong> A robótica na saúde está
+                avançando no Brasil, principalmente na área de
+                <strong>cirurgias minimamente invasivas</strong>.
+              </li>
+              <li style="margin-top: 30px">
+                <strong>Dados Globais:</strong> Desde 1990, foram realizados
+                <strong>8,5 milhões de procedimentos robóticos</strong> no
+                mundo.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <ul>
+              <li><strong>Cenário Nacional:</strong></li>
+              <ul>
+                <li>
+                  Em 2017, cerca de
+                  <strong>6 mil cirurgias robóticas</strong> foram realizadas no
+                  Brasil.
+                </li>
+                <li style="margin-top: 30px">
+                  O país conta com
+                  <strong>aproximadamente 50 robôs cirúrgicos</strong>, número
+                  em crescimento.
+                </li>
+              </ul>
+              <li style="margin-top: 30px">
+                <strong>Crescimento Estimado:</strong> A Sociedade Brasileira de
+                Cirurgia Minimamente Invasiva e Robótica (Sobracil) prevê um
+                aumento de <strong>30% ao ano</strong> nas cirurgias robóticas
+                no Brasil.
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>
+              <span style="color: #002d85">Desafios</span> da Robótica na
+              Medicina
+            </h2>
+            <p>
+              Apesar dos avanços na robótica aplicada à saúde, existem desafios
+              significativos a serem superados.
+            </p>
+          </section>
+
+          <section>
+            <h3><span style="color: #002d85">Custo e Acessibilidade</span></h3>
+            <p>
+              O alto custo dos robôs limita sua acessibilidade, especialmente em
+              hospitais menores e em países em desenvolvimento.
+            </p>
+            <p>
+              Reduzir os custos de fabricação e manutenção é essencial para a adoção ampla da tecnologia.
+            </p>
+          </section>
+
+          <section>
+            <h3>
+              <span style="color: #002d85">Segurança e Confiabilidade</span>
+            </h3>
+            <p>
+              Garantir a segurança e confiabilidade dos robôs em contextos
+              clínicos é um desafio fundamental.
+            </p>
+            <p>
+              Isso exige avanços contínuos em sistemas de controle, redundância
+              tecnológica e prevenção de falhas para evitar riscos aos
+              pacientes.
+            </p>
+          </section>
+
+          <section>
+            <h3>
+              <span style="color: #002d85">Aceitação e Adaptação Humana</span>
+            </h3>
+            <p>
+              A aceitação dos robôs por parte de profissionais.
+            </p>
+            <p>
+              Investir em treinamento especializado é fundamental para ajudar os
+              profissionais a se adaptarem a essas novas ferramentas
+              tecnológicas.
+            </p>
+          </section>
+        </section>
+
+        <section>
+          <h2><span style="color: #002d85">Conclusão</span></h2>
+          <p>
+            A robótica na saúde está revolucionando a medicina, oferecendo novas
+            oportunidades para tratamento e cuidado dos pacientes. A evolução
+            contínua das tecnologias promete um futuro com procedimentos ainda
+            mais seguros e eficazes.
+          </p>
+        </section>
+
+        <section>
+          <h3>
+            <span style="color: #002d85">Bibliografia</span> e Links Úteis
+          </h3>
+          <ul>
+            <li>
+              <a href="https://www.neuralink.com" target="_blank"
+                >Site oficial da Neuralink</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=r-vbh3t7WVI"
+                target="_blank"
+                >Vídeo: Entenda como funciona a Neuralink</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drrafaelcoelho.com.br/cirurgia-robotica/"
+                target="_blank"
+                >Site: Cirurgia Robótica</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=J-Eh4MydwP8"
+                target="_blank"
+                >Vídeo: Cirurgia robótica cada vez mais avançada</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://bvsms.saude.gov.br/revolucao-da-inteligencia-artificial-uso-na-saude-traz-novas-possibilidades/"
+                target="_blank"
+                >Site: Biblioteca virtual em saúde</a
+              >
+            </li>
+            <!-- Adicione mais links conforme necessário -->
+          </ul>
+        </section>
+
+        <section>
+          <h2>Perguntas?</h2>
+          <p>
+            (Feedbacks Construtivos ou algo que possa colaborar com nossa
+            apresentação)
+          </p>
+          <a href="#/0">Voltar ao primeiro slide</a>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        width: 960,
+        height: 700,
+        margin: 0.1,
+        minScale: 0.2,
+        maxScale: 1.5,
+        transition: "convex",
+        backgroundTransition: "fade",
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        slideNumber: true,
+        keyboard: true,
+        overview: true,
+        touch: true,
+        fragments: true,
+        dependencies: [
+          {
+            src: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.js",
+            async: true,
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
