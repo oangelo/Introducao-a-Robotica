@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Visão Computacional e Inspeção Automatizada</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css" id="theme">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+
+    <!-- Slide 1 - Título -->
+    <section data-background-size="cover">
+      <h1 style="font-size: 100px;">Robôs Autônomos</h1>
+      <h1 style="font-size: 48px;">em Ambientes Não Estruturados</h1>
+    </section>
+
+    <!-- Slide 2 - História -->
+    <section>
+      <h2 style="font-size: 48px;">História</h2>
+      <p style="font-size: 30px;">A história dos robôs autônomos, especialmente para ambientes não estruturados, é uma jornada fascinante de inovação, marcada por avanços em inteligência artificial, eletrônica e sensoriamento.</p>
+      <img src="Shakey.png" width="600">
+    </section>
+
+    <!-- Slide 3 - Histórico -->
+    <section>
+      <section>
+      <h2 style="font-size: 48px;">Histórico</h2>
+      <ul style="font-size: 28px;">
+        <li>Desenvolvimento inicial no século XX para automação industrial com o objetivo de automatizar tarefas repetitivas em linhas de montagem.</li>
+        <p></p>
+        <li>Década de 1960 e 70: primeiros robôs autônomos, como o Shakey, robô pioneiro com sensores e câmeras básicas.</li>
+        <p></p>
+        <li>Década de 1980 e 90: a pesquisa em robótica móvel avançou com robôs como Genghis e Ambler, que começaram a explorar solos irregulares, principalmente o Sojourner, um rover enviado pela NASA a Marte em 1997.</li>
+        <p></p>
+        <li>No início dos anos 2000: o avanço de tecnologias como inteligência artificial (IA) e sensoriamento por laser (LiDAR) permitiu que robôs autônomos fossem projetados para ambientes muito mais complexos, como é o caso do Spot e do Atlas</li>
+      </ul>
+      </section>
+      <section>
+        <div style="display: flex; gap: 300px; align-items: center;">
+            <div>
+                <h2 style="font-size: 38px;">Genghis</h2>
+                <img src="Genghis.jpg" width="300">
+            </div>
+            <div>
+                <h2 style="font-size: 38px;">Ambler</h2>
+                <img src="ambler.jpg" width="300">
+            </div>
+        </div>
+        <div style="display: flex; gap: 300px; align-items: center;">
+          <div>
+            <h2 style="font-size: 38px;">Sojourner</h2>
+            <img src="Sojourner.jpg" width="300">
+          </div>
+          <div>
+            <h2 style="font-size: 38px;">Spot</h2>
+            <img src="Spot.png" width="300">
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 style="font-size: 38px;">Atlas</h2>
+        <video width="600" controls>
+          <source src="Atlas.mp4" type="video/mp4"> 
+        </video>
+      </section>
+    </section>
+
+    <!-- Slide 4 - Importância e Futuro dos Robôs Autônomos -->
+    <section>
+      <h2 style="font-size: 48px;">Importância e Futuro dos Robôs Autônomos</h2>
+      <ul style="font-size: 28px;">
+        <li>Missões de resgate, monitoramento e exploração.</li>
+        <p></p>
+        <li>Agricultura e construção civil em ambientes complexos.</li>
+        <p></p>
+        <li>No futuro, espera-se que os robôs autônomos se tornem cada vez mais inteligentes e independentes, possivelmente cooperando entre si em "enxames" para realizar tarefas complexas.</li>
+        <p></p>
+      </ul>
+    </section>
+
+    <!-- Slide 5 - Robôs Terrestres -->
+    <section>
+      <h2 style="font-size: 48px;">Robôs Terrestres</h2>
+    </section>
+
+    <!-- Slide 6 - Robôs Coletores de Resíduos -->
+    <section>
+        <section>
+            <h2 style="font-size: 48px;">Robôs Coletores de Resíduos</h2>
+            <p style="font-size: 28px;">Robôs autônomos coletores de resíduos estão sendo desenvolvidos para operar em áreas urbanas e industriais, onde precisam navegar de forma independente para coletar lixo, limpar ruas e realizar outras tarefas de coleta sem interferência humana constante.</p>
+            <ul style="font-size: 25px;">
+                <li>Sensoriamento para navegação e coleta: câmeras e sensores ultrassônicos para localizar e coletar resíduos, detectando objetos variados no chão e evitando obstáculos.</li>
+                <p></p>
+                <li>Mapeamento em tempo real: alguns robôs coletores utilizam uma técnica chamada SLAM (Simultaneous Localization and Mapping), que ajuda a mapear o ambiente conforme se movem.</li>
+                <p></p>
+                <li>Capacidade de adaptação: identificar diferentes tipos de lixo e até mesmo classificar resíduos recicláveis de outros materiais, otimizando o processo de coleta e separação.</li>
+            </ul>
+        </section>
+        <section>
+            <h2 style="font-size: 48px;">Exemplos</h2>
+            <ul style="font-size: 25px;">
+                <li><strong>DustCart</strong>: é um robô autônomo de coleta de lixo que se movimenta em ambientes urbanos.</li>
+                <p></p>
+                <li><strong>Wall-Ye</strong>: Esse robô foi desenvolvido para a coleta de resíduos e manutenção de vinhedos. </li>
+                <p></p>
+                <li><strong>BeBot</strong>: Este é um robô autônomo de coleta de resíduos projetado para praias e áreas arenosas.</li>
+        </section>
+        <section>
+          <div style="display: flex; gap: 300px; align-items: center;">
+            <div>
+                <h2 style="font-size: 38px;">DustCart</h2>
+                <img src="Dustcart.png" width="300">
+            </div>
+            <div>
+                <h2 style="font-size: 38px;">Wall-Ye</h2>
+                <img src="Wall.png" width="300">
+            </div>
+        </div>
+        <h2 style="font-size: 38px;">BeBot</h2>
+        <img src="BeBot.png" width="300">
+        </section>
+    </section>
+
+    <!-- Slide 7 - Carros Autônomos -->
+    <section>
+        <section>
+            <h2 style="font-size: 48px;">Carros Autônomos</h2>
+            <p style="font-size: 28px;">Carros autônomos representam um dos desenvolvimentos mais avançados em robôs terrestres autônomos, já que precisam lidar com o trânsito em tempo real, interagir com pedestres, sinalizações e outros veículos em um ambiente altamente dinâmico.</p>
+            <ul style="font-size: 25px;">
+                <li>Sensores LiDAR e câmeras: detectam obstáculos, veículos, pedestres e interpretam sinalizações de trânsito.</li>
+                <p></p>
+                <li>Inteligência artificial e machine learning: permitem que o carro tome decisões rápidas com base em dados sensoriais e em padrões de comportamento, como previsões de trajetórias de outros veículos.</li>
+                <p></p>
+                <li>Mapas de alta precisão e GPS: para manter a localização do veículo e adaptar rotas em tempo real.</li>
+            </ul>
+        </section>
+        <section>
+            <h2 style="font-size: 48px;">Exemplos</h2>
+            <ul style="font-size: 25px;">
+              <li><strong>Terramax (Oshkosh Defense)</strong>: Originalmente projetado para o Desafio DARPA, o Terramax é um veículo autônomo militar que opera em terrenos acidentados e ambientes não estruturados, como desertos e áreas de combate. Ele é capaz de navegar em terrenos irregulares sem a necessidade de estradas marcadas, usando sensores avançados para detectar e evitar obstáculos.</li>
+              <p></p>
+              <li><strong>Autonomia da Toyota e da GM para Exploração</strong>: A Toyota e a GM investem em veículos autônomos projetados para explorar áreas remotas, como desertos e montanhas. Esses veículos utilizam tecnologia LIDAR, câmeras e sensores de radar, permitindo a navegação em áreas onde não há estradas e as condições climáticas podem mudar rapidamente.</li>
+        </section>
+        <section>
+          <div style="display: flex; gap: 200px; align-items: center;">
+            <div>
+                <h2 style="font-size: 38px;">Terramax</h2>
+                <img src="Terramax.png" width="1000">
+            </div>
+            <div>
+                <h2 style="font-size: 38px;">Toyota</h2>
+                <img src="Toyota.png" width="1000">
+            </div>
+        </div>
+        </section>
+    </section>
+
+     <!-- Slide 8 - Robôs Escaladores -->
+     <section>
+      <section>
+          <h2 style="font-size: 48px;">Robôs Escaladores</h2>
+          <p style="font-size: 28px;">São robôs especialmente projetados para se prender e se movimentar em superfícies verticais, como cascos de navios, plataformas de petróleo, turbinas eólicas e estruturas submarinas. Eles são usados para inspeções, manutenção e reparos em áreas de difícil acesso, onde a presença humana seria perigosa ou inviável. Esses robôs autônomos utilizam tecnologias como:</p>
+          <ul style="font-size: 25px;">
+              <li>Ventosas, ímãs e mecanismos de sucção: para aderir a superfícies verticais ou inclinadas.</li>
+              <p></p>
+              <li>Sensores e câmeras: capturam imagens em alta resolução para identificar rachaduras, corrosão e outros danos.</li>
+              <p></p>
+              <li>IA para análise de imagens: que permite detectar defeitos de forma autônoma e enviar relatórios para manutenção.</li>
+          </ul>
+      </section>
+      <section>
+          <h2 style="font-size: 48px;">Exemplos</h2>
+          <ul style="font-size: 25px;">
+            <li><strong>CliffBot</strong>: Com um sistema de aderência especializado e sensores de navegação, o CliffBot pode descer e escalar superfícies íngremes, sendo ideal para exploração geológica e missões de pesquisa em terrenos naturais não estruturados.</li>
+            <p></p>
+            <li><strong>RISE V3</strong>: O RISE é um robô escalador desenvolvido para navegar superfícies verticais complexas, como paredes e árvores. Equipado com garras especializadas e sensores, ele se adapta a terrenos irregulares.</li>
+            <p></p>
+            <li><strong>LEMUR</strong>: Este robô é projetado para explorar cavernas e áreas de difícil acesso em missões de resgate e pesquisa. Ele utiliza sensores de aderência e pernas robóticas que se adaptam a superfícies irregulares, permitindo que o robô escale e transite por terrenos complexos com segurança e autonomia.</li>
+      </section>
+      <section>
+        <div style="display: flex; gap: 200px; align-items: center;">
+          <div>
+              <h2 style="font-size: 38px;">CliffBot</h2>
+              <img src="Cliff.png" width="1000">
+          </div>
+          <div>
+              <h2 style="font-size: 38px;">LEMUR</h2>
+              <img src="Lemur.png" width="1000">
+          </div>
+      </div>
+      </section>
+      <section>
+        <h2 style="font-size: 38px;">RISE V3</h2>
+        <video width="600" controls>
+          <source src="RiSE.mp4" type="video/mp4"> 
+        </video>
+      </section>
+  </section>
+
+    <!-- Slide 9 - Desafios e Inovações -->
+    <section>
+      <h2 style="font-size: 48px;">Desafios e Inovações</h2>
+      <p style="font-size: 28px;">Os robôs terrestres autônomos, como carros autônomos e coletores de resíduos, enfrentam desafios importantes nos ambientes não estruturados. Entre esses desafios, estão:</p>
+      <ul style="font-size: 25px;">
+        <li><strong>Adaptabilidade ao ambiente</strong>: Eles precisam funcionar em locais onde podem encontrar objetos desconhecidos, terrenos irregulares ou obstáculos inesperados.</li>
+        <p></p>
+        <li><strong>Interação com humanos</strong>: Como esses robôs geralmente operam em locais públicos, eles precisam ser seguros e previsíveis ao interagir com pessoas.</li>
+        <p></p>
+        <li><strong>Condições climáticas e de iluminação</strong>: Eles devem operar em diferentes condições climáticas, lidando com desafios como chuva, neve e variações de luz, o que exige câmeras e sensores robustos.</li>
+      </ul>
+    </section>
+
+    <!-- Slide 10 - Robôs Maritimos -->
+    <section>
+        <h2 style="font-size: 48px;">Robôs Maritimos</h2>
+      </section>
+
+    <!-- Slide 11 - Robôs de Reconhecimento -->
+    <section>
+        <section>
+            <h2 style="font-size: 48px;">Robôs de Reconhecimento</h2>
+            <p style="font-size: 28px;">Os ROVs (Remotely Operated Vehicles) e AUVs (Autonomous Underwater Vehicles) são robôs subaquáticos projetados para explorar, monitorar e realizar tarefas em ambientes marítimos não estruturados, como o fundo do mar ou áreas de difícil acesso.</p>
+            <ul style="font-size: 25px;">
+                <li><strong>ROVs</strong>: são veículos controlados remotamente por um operador humano que, geralmente, está em um barco na superfície. São amplamente utilizados para inspecionar plataformas de petróleo, monitorar a biodiversidade e realizar reparos subaquáticos.</li>
+                <p></p>
+                <li><strong>AUVs</strong>: Eles podem ser programados para executar missões de reconhecimento, como mapear o fundo do mar ou inspecionar áreas específicas. Por serem independentes, são essenciais para missões prolongadas ou locais onde a conectividade com a superfície é limitada.</li>
+            </ul>
+        </section>
+        <section>
+            <h2 style="font-size: 48px;">Exemplos</h2>
+            <ul style="font-size: 25px;">
+              <li><strong>Wave Glider (Liquid Robotics)</strong>: Movido pela energia das ondas, o Wave Glider coleta dados de qualidade da água, clima e acústica subaquática. Ele se adapta a diferentes condições marítimas, navegando autonomamente por áreas onde outros veículos teriam dificuldades.</li>
+              <p></p>
+              <li><strong>REMUS (Remote Environmental Monitoring Units)</strong>: Os robôs REMUS são usados para exploração e mapeamento de áreas subaquáticas em ambientes marinhos não estruturados. Projetado para missões como busca e resgate e inspeção de estruturas submersas.</li>
+              <p></p>
+              <li><strong>Autonomous Surface Vehicle (ASV)</strong>: Esse robô é utilizado para mapeamento marítimo e inspeção em áreas costeiras e oceânicas. Com sensores avançados de navegação, o ASV consegue identificar obstáculos, adaptar sua rota e realizar levantamentos hidrográficos de forma autônoma.</li>
+        </section>
+        <section>
+          <div style="display: flex; gap: 300px; align-items: center;">
+            <div>
+                <h2 style="font-size: 38px;">Wave Glider</h2>
+                <img src="Wave.png" width="500">
+            </div>
+            <div>
+                <h2 style="font-size: 38px;">REMUS</h2>
+                <img src="Remus.png" width="500">
+            </div>
+        </div>
+        <h2 style="font-size: 38px;">ASV</h2>
+        <img src="ASV.png" width="400">
+        </section>
+    </section>
+
+    <!-- Slide 12 - Inovações na Área Diverless -->
+    <section>
+            <h2 style="font-size: 48px;">Inovações na Área Diverless</h2>
+            <p style="font-size: 28px;">O termo “Diverless” refere-se ao uso de robôs para substituir a necessidade de mergulhadores humanos em tarefas perigosas e complexas em ambientes subaquáticos. As inovações nessa área visam realizar inspeções, reparos e manutenção de infraestruturas submarinas sem a intervenção direta de humanos, aumentando a segurança e reduzindo custos.</p>
+            <ul style="font-size: 25px;">
+                <li><strong>Robôs para inspeção de linhas de dutos</strong>: Eles usam sensores especializados para detectar variações de pressão, temperatura e composição química ao redor dos dutos.</li>
+                <p></p>
+                <li><strong>Sistemas de intervenção autônoma</strong>: são robôs que, além de inspecionar, podem realizar pequenas intervenções e reparos em tempo real, como substituir peças ou realizar soldagem subaquática.</li>
+                <p></p>
+                <li><strong>Enxames de robôs submarinos</strong>: consistem em vários robôs menores que trabalham juntos para cobrir áreas extensas, coordenando-se autonomamente para realizar tarefas em paralelo, como monitoramento ambiental ou limpeza de superfícies.</li>
+                </ul>
+    </section>
+
+    <!-- Slide 13 - Robôs Aéreos -->
+    <section>
+        <h2 style="font-size: 48px;">Robôs Aérios</h2>
+    </section>
+
+    <!-- Slide 14 - Drones Autônomos e Suas Aplicações -->
+    <section>
+        <section>
+        <h2 style="font-size: 48px;">Drones Autônomos e Suas Aplicações</h2> 
+        <p style="font-size: 28px;">Drones autônomos estão revolucionando diversas áreas ao fornecer soluções inovadoras para inspeção, mapeamento, busca e resgate, agricultura de precisão, vigilância e monitoramento de desastres em ambientes complexos e de difícil acesso.</p> 
+        <ul style="font-size: 25px;"> 
+            <li><strong>Inspeção e Mapeamento:</strong> Equipados com câmeras de alta resolução, sensores de profundidade (como LiDAR) e GPS, esses drones mapeiam terrenos em 3D, sendo usados para monitorar infraestruturas e estudar a biodiversidade em áreas complexas.</li> 
+            <li><strong>Busca e Resgate:</strong> Utilizam câmeras térmicas e algoritmos de IA para localizar pessoas em florestas, montanhas e áreas devastadas, além de servirem como pontos de comunicação temporários em locais remotos.</li> 
+            <li><strong>Agricultura de Precisão:</strong> Drones agrícolas com câmeras multiespectrais detectam problemas nas culturas e aplicam pesticidas e fertilizantes, navegando em terrenos variáveis e enfrentando condições adversas.</li> 
+            <li><strong>Vigilância e Monitoramento de Desastres:</strong> Utilizados para monitorar áreas de risco, esses drones fornecem mapeamento em tempo real e apoio visual em zonas de desastre, alertando as autoridades sobre mudanças perigosas no ambiente.</li> 
+        </ul> 
+        </section>
+        <section>
+        <h2 style="font-size: 48px;">Exemplos</h2> 
+        <ul style="font-size: 25px;"> 
+            <li><strong>Skydio 2+ (Skydio)</strong>: sse drone autônomo é projetado para navegação em áreas densamente arborizadas, cavernas e áreas urbanas complexas. Ele utiliza inteligência artificial e câmeras em 360 graus para evitar obstáculos e criar rotas alternativas em tempo real</li> 
+            <p></p>
+            <li><strong>Parrot Anafi Thermal</strong>: Este drone compacto possui uma câmera térmica que detecta o calor corporal em áreas de difícil acesso. Ideal para operações de busca e resgate em terrenos não estruturados, como áreas montanhosas e deslizamentos de terra</li> 
+            <p></p>
+            <li><strong>DJI Agras T30</strong>: Este drone é amplamente utilizado para pulverização de pesticidas e fertilizantes em grandes áreas agrícolas. Possui um sistema de pulverização de alta precisão que permite cobrir uma grande área em menos tempo, além de câmeras para monitoramento em tempo real.</li>
+            <P></P>
+            <li><strong>FLIR SkyRanger R70</strong>: possui câmeras térmicas e de visão noturna que permitem monitoramento em condições de baixa visibilidade. É utilizado para patrulhar áreas com risco de deslizamento, enchentes e incêndios, além de auxiliar em operações de resgate.</li>
+        </ul> 
+        </section>
+        <section>
+          <div style="display: flex; gap: 300px; align-items: center;">
+            <div>
+                <h2 style="font-size: 38px;">Skydio</h2>
+                <img src="Skydio.png" width="300">
+            </div>
+            <div>
+                <h2 style="font-size: 38px;">Parrot Anafi</h2>
+                <img src="Parrot.png" width="300">
+            </div>
+        </div>
+        <div style="display: flex; gap: 300px; align-items: center;">
+          <div>
+            <h2 style="font-size: 38px;">DJI Agras</h2>
+            <img src="DJI.png" width="300">
+          </div>
+          <div>
+            <h2 style="font-size: 38px;">Skyranger</h2>
+            <img src="Flir.png" width="300">
+          </div>
+        </div>
+        </section>
+    </section>
+
+    <!-- Slide 15 - Desafios e Inovações -->
+    <section>
+        <h2 style="font-size: 48px;">Desafios e Inovações</h2>
+        <p style="font-size: 28px;">Para operar em ambientes aéreos não estruturados, os drones autônomos dependem de tecnologias avançadas, como:</p>
+        <ul style="font-size: 25px;">
+          <li><strong>Mapeamento e Navegação Autônoma</strong>: drones precisam de mapeamento contínuo para se adaptar a ambientes que mudam rapidamente, ajustando rotas para evitar colisões com árvores, edifícios ou outros obstáculos.</li>
+          <p></p>
+          <li><strong>IA para Análise e Tomada de Decisão</strong>: algoritmos de IA ajudam drones a interpretar dados visuais e sensoriais em tempo real, ajustando-se a condições climáticas e detectando elementos importantes em operações de resgate ou vigilância.</li>
+          <p></p>
+          <li><strong>Resiliência a Condições Climáticas</strong>: ventos fortes, chuva, poeira e variações de temperatura podem afetar a operação de drones. Esses robôs precisam ser capazes de continuar operando com segurança mesmo em condições adversas.</li>
+        </ul>
+      </section>
+
+      <!-- Slide 16 - Conclusão -->
+    <section>
+        <h2 style="font-size: 48px;">Conclusão</h2>
+        <p style="font-size: 28px">Robôs autônomos evoluíram para atuar em ambientes complexos e imprevisíveis, usando tecnologias avançadas como IA e sensores para tarefas que variam desde coleta de resíduos em áreas urbanas até inspeções subaquáticas e monitoramento aéreo. Essenciais em locais onde o controle humano é limitado ou arriscado, esses robôs ajudam a aumentar a eficiência e a segurança em setores como resgate, agricultura e vigilância ambiental.</p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+<script>
+  Reveal.initialize();
+</script>
+
+</body>
+</html>
