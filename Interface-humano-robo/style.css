@@ -1,0 +1,29 @@
+.order{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+.interface{
+    width: 400px;
+	display: inline-block;
+    align-items: center;
+    padding: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+video{
+    border-radius: 10px;
+}
+
+.Dispo-hapt{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    
+}
+
