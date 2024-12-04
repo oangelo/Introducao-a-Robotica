@@ -1,10 +1,10 @@
 # Inteligência Artificial e Aprendizado de Máquina em Robótica
 
 ## Autores
-- Marcelo Bracet
-- Felipe Carrancho  
 - Victor Pinheiro
-
+- Victor Hugo Almeida
+- Luis Felipe Braido
+   
 ## Sumário
 1. [Introdução](#introdução)
 2. [Inteligência Artificial](#inteligência-artificial)
