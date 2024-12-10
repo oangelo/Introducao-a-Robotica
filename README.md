@@ -2,6 +2,10 @@
 
 Bem-vindo ao repositório do curso de Introdução à Robótica! Este espaço servirá como hub central para todos os materiais, projetos e recursos relacionados ao nosso curso.
 
+# Notas
+
+ - [2024](notas/notas2024.md)
+
 ## Sobre o Curso
 
 Este curso oferece uma introdução abrangente ao fascinante mundo da robótica. Através de um projeto colaborativo, os alunos explorarão diversos aspectos da robótica, desde conceitos fundamentais até aplicações avançadas e questões éticas.
